@@ -1,0 +1,11 @@
+/* TEAM */
+	Web developer: Nathan J. Brauer
+	Contact: me [at] nathanbrauer.com
+	Twitter: @NathanBrauer
+	From: Hayward, CA
+
+/* SITE */
+	Standards: HTML5, CSS3
+	Components: jQuery, Foundation, Normalize
+	Software:  Git, SCSS
+	IDE: PhpStorm

@@ -1,0 +1,8 @@
+<IfModule pagespeed_module>
+	ModPagespeed off
+</IfModule>
+
+#Ensure the display of errors is always off
+php_value display_errors off
+
+Options -Indexes

@@ -1,0 +1,188 @@
+//This file should NEVER output any css.
+//It's used only to allow mixins across multiple sheets
+
+
+// OVERRIDE Compass' default clearfix with one that doesn't collapse the top or bottom margins.
+// "The micro clearfix" from http://nicolasgallagher.com/micro-clearfix-hack/
+@mixin clearfix() {
+	*zoom:1;
+
+	&:before,
+	&:after {
+		content:"";
+		display:table;
+	}
+	&:after {
+		font-weight: lighter;
+		clear:both;
+	}
+}
+
+//Force a line break after this element -- will NOT work in IE6
+@mixin breakline-after {
+	&+* {
+		clear: both;
+	}
+}
+
+@mixin font-family($type: '') {
+	@if $type == 'header' { //they're the same now, but coding them to be separate so we can change them easier later
+		font-family: 'soleil', 'Lucida Grande', 'Lucida Sans Unicode', 'Nimbus Sans L', Arial, sans-serif;
+	} @else if $type == 'button' {
+	//	font-family: Arial, Helvetica;
+		font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Nimbus Sans L', Arial, sans-serif;
+	} @else {
+		font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Nimbus Sans L', Arial, sans-serif;
+	}
+}
+
+@mixin margin-y($height) {
+	margin: {
+		top: $height;
+		bottom: $height;
+	}
+}
+
+@mixin margin-x($width) {
+	margin: {
+		left: $width;
+		right: $width;
+	}
+}
+
+@mixin padding-y($height) {
+	padding: {
+		top: $height;
+		bottom: $height;
+	}
+}
+
+@mixin padding-x($width) {
+	padding: {
+		left: $width;
+		right: $width;
+	}
+}
+
+@mixin bubble {
+	@include box-shadow(rgb(0,0,0) 0px 0px 9px); //@include pie; //not including due to hidden restriction
+	@include box-shadow(rgba(0,0,0,0.4) 0px 0px 9px);
+	display: inline-block;  position: absolute; z-index: 10;
+	width: 230px; min-height: 25px;
+	padding: 14px;
+	background-color: white;
+	border: 1px solid $dark-gray;
+	font-size: 12px; color: black;
+	text-align: left; vertical-align: middle;
+	@include text-shadow(none);
+}
+
+//Buttons
+@mixin action() {
+	@include pie;
+	&, &:visited, &:hover, &:focus {
+		white-space: nowrap;
+		outline: none;
+		@include font-family('button');
+		@include user-select(none);
+		text-decoration: none; font-weight: bold;
+		position: relative; @include inline-block; text-align: center;
+		margin: 0 10px 0; padding: 8px 20px 6px;
+		line-height: normal; // This MUST remain "normal" as Firefox FORCES "normal" on input buttons (stupid) - use padding if needed
+		@include box-shadow(0px 0px 0px 5px #E8E8E8);
+		@include box-shadow(0px 0px 0px 5px rgba(#E8E8E8,0.75));
+		border: 1px solid #ccc;
+		border: 1px solid rgba(black,.25);
+		border: {
+			bottom: 1px solid #aaa;
+			right:  1px solid #aaa;
+			bottom: 1px solid rgba(black,.5);
+			right:  1px solid rgba(black,.5);
+		}
+		cursor: pointer;
+	}
+	&:active {
+		top: 1px;
+	}
+}
+@mixin action-format($text-color,$font-size,$background-base-color) {
+	color: $text-color;
+	font-size: $font-size;
+
+	@if lightness($text-color) > 50 {
+		@include text-shadow(0px 1px 3px rgba(black,0.8));
+	} @else {
+		@include text-shadow(0px 1px 3px rgba(white,0.8));
+	}
+	&:focus {
+		border-color: rgba(darken($background-base-color,65%),.75);
+		@include box-shadow(0px 0px 0px 5px darken(#E8E8E8,5%));
+	}
+
+	background: lighten($background-base-color,5%);
+	&:hover, &.hover {
+		@include background(linear-gradient(lighten($background-base-color,15%), darken($background-base-color,0%)));
+	}
+	&:active {
+		@include background(linear-gradient(lighten($background-base-color,0%), darken($background-base-color,15%)));
+	}
+}
+
+@mixin action-basic() {
+	@include pie;
+	&, &:visited, &:hover, &:focus {
+		white-space: nowrap;
+		outline: none;
+		@include font-family('header');
+		@include user-select(none);
+		text-decoration: none; font-weight: normal;
+		position: relative; @include inline-block; text-align: center;
+		margin: 0 10px 0; padding: 5px 20px 8px;
+		line-height: normal; // This MUST remain "normal" as Firefox FORCES "normal" on input buttons (stupid) - use padding if needed
+		cursor: pointer;
+		text-transform: uppercase;
+	}
+	&:active {
+		top: 1px;
+	}
+}
+@mixin action-basic-format($text-color,$font-size,$background-base-color) {
+	$background: lighten($background-base-color,5%);
+	color: $text-color;
+	font-size: $font-size;
+	background: $background;
+
+	@if lightness($text-color) > 50 {
+		@include text-shadow(0px 1px 2px rgba(black,0.5));
+	} @else {
+		@include text-shadow(0px 1px 2px rgba(white,0.5));
+	}
+	border: 1px solid #fff;
+	border: 1px solid rgba(#fff,.75);
+
+	$first: 3px; $second: 5px;
+	@include box-shadow(0px 0px 0px $first $background);
+
+	&:hover, &:focus, &.hover {
+		$background: lighten($background-base-color,10%);
+		background: $background;
+		@include box-shadow(0px 0px 0px $first $background);
+	}
+	&:active {
+		$background: lighten($background-base-color,4%);
+		background: $background;
+		@include box-shadow(0px 0px 0px $first $background);
+	}
+}
+
+@mixin dot($diameter,$border-color) {
+	@include inline-block;
+	background-color: #D1D3D4;
+	width: $diameter; height: $diameter;
+	margin: ($diameter/2);
+	border: ($diameter/2) solid $border-color;
+	border-radius: $diameter;
+	&.active {
+		background-color: #1BA3DD;
+	}
+}
