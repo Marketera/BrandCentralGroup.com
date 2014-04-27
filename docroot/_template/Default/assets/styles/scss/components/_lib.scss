@@ -25,15 +25,8 @@
 	}
 }
 
-@mixin font-family($type: '') {
-	@if $type == 'header' { //they're the same now, but coding them to be separate so we can change them easier later
-		font-family: 'soleil', 'Lucida Grande', 'Lucida Sans Unicode', 'Nimbus Sans L', Arial, sans-serif;
-	} @else if $type == 'button' {
-	//	font-family: Arial, Helvetica;
-		font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Nimbus Sans L', Arial, sans-serif;
-	} @else {
-		font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Nimbus Sans L', Arial, sans-serif;
-	}
+@mixin texture($type) {
+	background: image-url('template/textures/'+$type+'.png');
 }
 
 @mixin margin-y($height) {
@@ -175,14 +168,19 @@
 	}
 }
 
-@mixin dot($diameter,$border-color) {
+@mixin dot($diameter,$color-inactive,$color-active,$border-size:0,$border-color:'') {
 	@include inline-block;
-	background-color: #D1D3D4;
-	width: $diameter; height: $diameter;
-	margin: ($diameter/2);
-	border: ($diameter/2) solid $border-color;
+	background-color: $color-inactive;
+	@if $border-size > 0 {
+		width: $diameter*$border-size; height: $diameter*$border-size;
+		margin: ($diameter/$border-size);
+		border: ($diameter/$border-size) solid $border-color;
+	} @else {
+		width: $diameter; height: $diameter;
+	}
+	margin: $diameter;
 	border-radius: $diameter;
 	&.active {
-		background-color: #1BA3DD;
+		background-color: $color-active;
 	}
 }

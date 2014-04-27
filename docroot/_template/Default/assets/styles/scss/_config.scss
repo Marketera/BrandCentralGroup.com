@@ -26,4 +26,13 @@
 @import "compass/css3";
 	$pie-behavior: url("/_static/styles/generated/PIE.htc");
 
+
+$brand-base: #000;
+$brand-base-inverse: #fff;
+$brand-base-light: #444;
+$brand-base-light-inverse: #fff;
+$brand-primary: #b30838;
+$brand-primary-inverse: #fff;
+
 @import 'components/lib';
+@import "components/foundation/settings";

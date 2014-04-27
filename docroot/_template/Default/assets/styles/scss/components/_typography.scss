@@ -1,0 +1,8 @@
+@import 'config';
+
+#{headings()} {
+	strong {
+		color: $brand-primary;
+		font-weight: $header-font-weight;
+	}
+}

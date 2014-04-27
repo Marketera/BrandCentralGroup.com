@@ -1,5 +1,29 @@
 @import 'config',
 		'components/normalize',
 		'components/foundation',
-		'components/typography';
+		'components/typography',
+		'components/ambient-slider';
 
+#header-bar {
+	background: rgba($brand-base,0.9);
+}
+
+.button {
+	text-transform: uppercase;
+	@include box-shadow(0 0 5px rgba($brand-base,.5));
+	&.large {
+		@include padding-x(4.5rem);
+	}
+}
+
+#footer-bar {
+	background: $brand-base;
+	p {
+		text-align: center;
+		line-height: 6rem;
+		margin: 0;
+//		@include padding-y(1rem);
+	}
+}
+
+@import 'homepage';

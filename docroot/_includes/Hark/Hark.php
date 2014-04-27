@@ -132,7 +132,7 @@ class Hark {
 	 * @param string $URL
 	 * @return string
 	 */
-	static public function CacheBuster($Path,$URL='') {
+	static public function CacheBuster($Path,$URL='',$Return=false) {
 		if (!$URL) $URL = $Path;
 
 		if (!$Append = HarkConfig::SiteVersion()) {
@@ -145,11 +145,18 @@ class Hark {
 			if (isset($FinalPath)) {
 				$Append = filemtime($FinalPath);
 			} else {
-				return $URL;
+				if ($Return) {
+					return $URL;
+				} else {
+					echo $URL;
+					return null;
+				}
 			}
 		}
 
-		return (strpos($URL,'?') !== false) ? $URL.'&'.$Append : $URL.'?'.$Append;
+		$Final = (strpos($URL,'?') !== false) ? $URL.'&'.$Append : $URL.'?'.$Append;
+		if ($Return) return $Final;
+		echo $Final;
 	}
 
 }

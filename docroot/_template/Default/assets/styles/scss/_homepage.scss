@@ -1,0 +1,217 @@
+@import 'config';
+
+$layer-height: 1200px;
+body.root-index {
+	h1, h2, h3 {
+		text-transform: uppercase;
+		strong {
+			display: block;
+		}
+	}
+	.layer {
+		min-height: $layer-height;
+	}
+}
+
+#Introduction {
+	position: relative;
+	background: black;
+
+	// Adjust the height/margin/padding for the topbar.
+	margin-top: $topbar-height*-1;
+	padding-top: $topbar-height;
+	$layer-height: $layer-height - $topbar-height;
+	height: $layer-height;
+	min-height: 100vh;
+
+	.Slideshow {
+		&>* {
+			position: absolute; top: 0; bottom: 0;
+			width: 100%;
+			background-size: cover;
+			opacity: 0;
+			@include single-transition(opacity 1s);
+			&.active {
+				opacity: 1;
+			}
+		}
+	}
+
+	.content {
+		height: $layer-height*.65;
+		min-height: 80vh;
+		position: relative;
+		// Help define the characters against the busy
+		// background a little more:
+		@include text-shadow(0 0 2px rgba(black,0.6));
+		&>div {
+			position: absolute;
+			bottom: 0;
+		}
+		p {
+			font-size: 1.75rem;
+			color: $brand-base-inverse;
+		}
+	}
+	h1 {
+		color: $brand-base-inverse;
+		text-transform: uppercase;
+	}
+
+	.call-to-action {
+		text-align: center;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+	.button {
+		background: transparent;
+		font-size: 1.5rem;
+		@include box-shadow(none);
+		&:after {
+			@include replace-text-with-dimensions('homepage/down-small.png',center,0);
+			content: ''; display: block;
+			width: auto; margin-top: 10px;
+		}
+	}
+}
+
+#Services {
+	@include texture(noise-light);
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	.tabset-holder {
+		position: relative;
+		&>* {
+			position: absolute;
+			width: 100%;
+			top: $layer-height*-1;
+			opacity: 0;
+			@include transition(400ms);
+			&.active {
+				top: 0;
+				opacity: 1;
+			}
+		}
+	}
+	h2 {
+		padding-top: 260px;
+		padding-bottom: 200px;
+	}
+	.call-to-action {
+		position: absolute;
+		bottom: 100px;
+		width: 100%;
+	}
+	p {
+		padding-top: 100px;
+	}
+}
+
+#CaseStudies {
+	&>* {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+	h2, h3, p {
+		// Help define the characters against the busy
+		// background a little more:
+		@include text-shadow(0 0 2px rgba(black,0.6));
+	}
+	h2 {
+		padding: 10rem 0 2rem;
+	}
+	h3 {
+		color: $brand-base-inverse;
+	}
+	p {
+		color: $brand-base-inverse;
+		line-height: 1.3;
+		@include padding-y(1rem);
+	}
+}
+.ambient-slider-dots {
+	padding: 0;
+	height: 0;
+
+	&>* {
+		top: -6rem;
+		z-index: 4;
+	}
+}
+
+
+#brand-central-difference {
+	background-image: image-url('homepage/airport-mall.jpg');
+}
+#brand-central-station {
+	background-image: image-url('homepage/bubble-gum.jpg');
+}
+
+#Clients {
+	overflow: hidden;
+	padding-bottom: 10rem;
+	@include texture(noise-light);
+	h2 {
+		padding: 10rem 0 1rem;
+		color: $primary-color;
+	}
+	dl {
+		@include sub-nav();
+		text-transform: uppercase;
+		margin-bottom: 5rem;
+		dd {
+			margin-right: 1rem;
+		}
+		a {
+			border-bottom: 2px solid transparent;
+		}
+		.active {
+			color: $primary-color;
+			a {
+				border-bottom: 2px solid $brand-primary;
+			}
+		}
+	}
+	$number-of-customer-sections: 4;
+	$transition-duration: 600ms;
+	.customer-sections {
+		@include transition($transition-duration);
+		width: $number-of-customer-sections * 100%;
+	}
+	section {
+		@include float(left);
+		width: 100%/$number-of-customer-sections;
+		.columns {
+			line-height: 150px; // Sets a common height and aligns images vertically to the middle
+			margin-bottom: 5rem;
+		}
+	}
+}
+
+#Contact {
+	@include texture(noise-dark);
+	text-transform: uppercase;
+	min-height: $layer-height - 100px;
+
+	h2 {
+		padding-top: 12rem;
+		padding-bottom: 8rem;
+	}
+	h2, h5 {
+		color: $brand-base-light-inverse;
+	}
+	p {
+		color: $brand-base-light;
+		a, .gc-cs-link {
+			// .gc-cs-link is the class that the Google Voice
+			// browser extension automatically adds to phone
+			// numbers it detects on the page, making them
+			// clickable. Without defining it, it will default
+			// to standard blue color.
+			color: $brand-primary;
+		}
+	}
+}
