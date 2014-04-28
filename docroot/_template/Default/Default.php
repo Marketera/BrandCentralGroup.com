@@ -19,17 +19,20 @@
 	<!-- Temporary Typekit Inclusion -->
 
 	<script src="<?php Hark::CacheBuster('assets/scripts/lib/modernizr.min.js') ?>"></script>
-	<!--[if lt IE 9]><script type="text/javascript" src="<?php Hark::CacheBuster('assets/scripts/lib/html5shiv.min.js') ?>"></script><![endif]-->
-
 	<?php echo $CustomHead ?>
 </head>
 <body class="<?php echo Hark::BodyClasses(is_array($BodyClasses) ? $BodyClasses : array());?>">
 
 <div id="header-bar" class="contain-to-grid fixed">
 	<nav class="top-bar" data-topbar>
+		<ul class="title-area">
+			<li class="name show-for-large-up"><h1><a class="home-link" href="<?php echo HarkConfig::HomeURL() ?>/#"><img src="<?php Hark::CacheBuster('assets/images/template/brand-central.png') ?>" alt="Brand Central"></a></h1></li>
+			<li class="name show-for-medium-down"><h1><a class="home-link" href="<?php echo HarkConfig::HomeURL() ?>/#" style="overflow:hidden;width:60px;"><img style="max-width:none;" src="<?php Hark::CacheBuster('assets/images/template/brand-central.png') ?>" alt="Brand Central"></a></h1></li>
+			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+		</ul>
 		<section class="top-bar-section">
 			<!-- Right Nav Section -->
-			<ul class="right">
+			<ul class="right show-for-large-up">
 				<li><a target="_blank" href="https://www.facebook.com/pages/Brand-Central-Group/607999419243287"><img src="<?php Hark::CacheBuster('assets/images/template/iconset/facebook.png') ?>" alt="Facebook"></a></li>
 				<li><a target="_blank" href="http://Twitter.com/NathanBrauer"><img src="<?php Hark::CacheBuster('assets/images/template/iconset/twitter.png') ?>" alt="Twitter"></a></li>
 				<li><a target="_blank" href="http://Pinterest.com/"><img src="<?php Hark::CacheBuster('assets/images/template/iconset/pinterest.png') ?>" alt="Pinterest"></a></li>
@@ -38,14 +41,13 @@
 
 			<!-- Left Nav Section -->
 			<ul class="left">
-				<li><a href="/"><img src="<?php Hark::CacheBuster('assets/images/template/brand-central.png') ?>" alt="Brand Central"></a></li>
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#Services">Services</a></li>
-				<li><a href="#CaseStudies">Case Studies</a></li>
-				<li><a href="#Clients">Clients</a></li>
-				<li><a href="javascript:alert('I need somewhere to go!')">Team</a></li>
-				<li><a href="javascript:alert('I need somewhere to go!')">Blog</a></li>
-				<li><a href="#Contact">Contact</a></li>
+				<li class="hide-for-medium-only active"><a class="nav-link home" href="#">Home</a></li>
+				<li><a class="nav-link Services" href="#Services">Services</a></li>
+				<li><a class="nav-link" href="#CaseStudies">Case Studies</a></li>
+				<li><a class="nav-link" href="#Clients">Clients</a></li>
+				<li><a class="nav-link-disabled" href="javascript:alert('I need somewhere to go!')">Team</a></li>
+				<li><a class="nav-link-disabled" href="javascript:alert('I need somewhere to go!')">Blog</a></li>
+				<li><a class="nav-link" href="#Contact">Contact</a></li>
 			</ul>
 		</section>
 	</nav>

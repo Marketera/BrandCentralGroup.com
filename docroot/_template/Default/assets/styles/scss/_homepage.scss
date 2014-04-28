@@ -2,6 +2,9 @@
 
 $layer-height: 1200px;
 body.root-index {
+	&.f-topbar-fixed {
+		padding-top: 0;
+	}
 	h1, h2, h3 {
 		text-transform: uppercase;
 		strong {
@@ -18,11 +21,8 @@ body.root-index {
 	background: black;
 
 	// Adjust the height/margin/padding for the topbar.
-	margin-top: $topbar-height*-1;
-	padding-top: $topbar-height;
-	$layer-height: $layer-height - $topbar-height;
-	height: $layer-height;
-	min-height: 100vh;
+	height: 100vh;
+	min-height: 600px;
 
 	.Slideshow {
 		&>* {
@@ -86,9 +86,9 @@ body.root-index {
 		&>* {
 			position: absolute;
 			width: 100%;
-			top: $layer-height*-1;
+			top: -8rem;
 			opacity: 0;
-			@include transition(400ms);
+			@include transition(600ms);
 			&.active {
 				top: 0;
 				opacity: 1;
@@ -204,6 +204,7 @@ body.root-index {
 		color: $brand-base-light-inverse;
 	}
 	p {
+		@include ellipsis;
 		color: $brand-base-light;
 		a, .gc-cs-link {
 			// .gc-cs-link is the class that the Google Voice

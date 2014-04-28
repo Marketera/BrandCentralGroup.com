@@ -13,7 +13,7 @@ $page['BodyClasses'] = array();
 Hark::Init();
 ?>
 
-<div class="layer" id="Introduction">
+<div class="layer layer-anchor" id="Introduction" data-selector=".nav-link.home">
 	<div class="Slideshow" data-seconds="5">
 		<div class="active" style="background-image:url('_template/Default/assets/images/homepage/bubble-gum.jpg')"></div>
 		<div style="background-image:url('http://i.imgur.com/uRBtadp.jpg');"></div>
@@ -36,29 +36,41 @@ Hark::Init();
 	</div>
 	<div class="call-to-action">
 		<div class="text-center">
-			<a class="large button" href="#Services">Learn More</a>
+			<a class="large button" href="#Services" onclick="$('.nav-link.Services').click();return false;">Learn More</a>
 		</div>
 	</div>
 </div>
 
-<div class="layer" id="Services">
+<div class="layer layer-anchor" id="Services">
 	<div class="row tabset-holder">
-		<div id="Services-Short" class="active">
+		<div class="active">
 			<h2 class="small-12 columns">
 				Our Proven
 				<strong>Methodology.</strong>
 			</h2>
 		</div>
-		<div id="Services-Methodology">
+		<div>
 			<h2 class="small-12 columns">
-				We Have a Proven
-				<strong>Methodology.</strong>
+				Our Proven
+				<strong>Experience.</strong>
 			</h2>
 		</div>
-		<div id="Services-TrackRecord">
+		<div>
 			<h2 class="small-12 columns">
-				We Have a Proven
-				<strong>Desk Lamp.</strong>
+				Our Proven
+				<strong>Leadership.</strong>
+			</h2>
+		</div>
+		<div>
+			<h2 class="small-12 columns">
+				Our Proven
+				<strong>Longevity.</strong>
+			</h2>
+		</div>
+		<div>
+			<h2 class="small-12 columns">
+				Our Proven
+				<strong>Klingon Skills.</strong>
 			</h2>
 		</div>
 	</div>
@@ -72,7 +84,7 @@ Hark::Init();
 	</div>
 </div>
 
-<div class="layer ambient-slider" id="CaseStudies">
+<div class="layer layer-anchor ambient-slider" id="CaseStudies">
 	<a id="brand-central-difference" href="javascript:alert('I need a place to go!');">
 		<div class="row">
 			<div class="small-12 large-offset-1 large-9 columns">
@@ -128,7 +140,7 @@ Hark::Init();
 </div>
 
 
-<div class="layer tabset-holder" id="Clients">
+<div class="layer layer-anchor tabset-holder" id="Clients">
 	<div class="row">
 		<h2 class="small-offset-1 small-11 columns">
 			Our Clients.
@@ -371,7 +383,7 @@ Hark::Init();
 	</div>
 </div>
 
-<div class="layer" id="Contact">
+<div class="layer layer-anchor" id="Contact">
 	<div class="row">
 		<h2 class="small-12 large-offset-1 large-11 columns">
 			Get in Touch.
