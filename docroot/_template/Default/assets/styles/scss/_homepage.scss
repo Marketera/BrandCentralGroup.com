@@ -271,22 +271,28 @@ $case-studies-height-medium-up: 1200px;
 	position: relative;
 	> * {
 		display: inline-block;
-		background: rgba(orange,0.7);
 		z-index: 5;
 		cursor: pointer;
 		position: absolute;
+		background-repeat: no-repeat;
+		background-position: center center;
+		@include transition(background-color 200ms);
 		@media #{$small-only} {
 			height: $case-studies-height-small-only;
 		}
-
 		@media #{$medium-up} {
 			min-height: $case-studies-height-medium-up;
 		}
 		&:first-child {
+			background-image: image-url('homepage/arrow-left.png');
 			left: 0;
 		}
 		&:last-child {
+			background-image: image-url('homepage/arrow-right.png');
 			right: 0;
+		}
+		&:hover {
+			background-color: rgba(white,0.2);
 		}
 	}
 }
