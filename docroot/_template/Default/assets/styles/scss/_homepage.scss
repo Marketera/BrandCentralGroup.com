@@ -279,6 +279,7 @@ $case-studies-height-medium-up: 1200px;
 		@include transition(background-color 200ms);
 		@media #{$small-only} {
 			height: $case-studies-height-small-only;
+			background-size: contain;
 		}
 		@media #{$medium-up} {
 			min-height: $case-studies-height-medium-up;
