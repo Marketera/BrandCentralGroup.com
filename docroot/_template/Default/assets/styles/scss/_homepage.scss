@@ -1,6 +1,6 @@
 @import 'config';
 
-$layer-height: 1200px;
+$layer-height: 800px;
 body.root-index {
 	&.f-topbar-fixed {
 		padding-top: 0;
@@ -25,8 +25,10 @@ body.root-index {
 	background: black;
 
 	// Adjust the height/margin/padding for the topbar.
+/*
 	height: 100vh;
 	min-height: 600px;
+*/
 
 	@media #{$small-only} {
 		height: 480px;
@@ -65,10 +67,12 @@ body.root-index {
 		position: relative;
 
 
+/*
 		@media #{$medium-up} {
 			height: $layer-height*.65;
 			min-height: 80vh;
 		}
+*/
 
 		@media #{$small-only} {
 			max-height: 350px;
@@ -77,6 +81,7 @@ body.root-index {
 		// Help define the characters against the busy
 		// background a little more:
 		@include text-shadow(0 0 2px rgba(black,0.6));
+/*
 		&>div {
 			position: absolute;
 			bottom: 0;
@@ -85,6 +90,7 @@ body.root-index {
 				top: 100px;
 			}
 		}
+*/
 		p {
 			font-size: 1.75rem;
 			color: $brand-base-inverse;
