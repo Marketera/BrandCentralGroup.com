@@ -91,7 +91,7 @@ Hark::Init();
 			<p><img src="http://fpoimg.com/600x300"></p>
 			<p>
 				<a class="large success button activatable-next" href="#Services">Latlh Ghoj</a><br/>
-				<small>That's "Learn More" in Klingon</small>
+				<small>That's "Learn More" in Klingon.</small>
 			</p>
 		</div>
 	</div>
@@ -105,7 +105,7 @@ Hark::Init();
 <div class="layer layer-anchor ambient-slider add-controls" id="CaseStudies">
 	<a id="brand-central-difference" href="javascript:alert('I need a place to go!');">
 		<div class="row">
-			<div class="small-offset-1 small-10 columns">
+			<div class="small-offset-2 small-8 medium-offset-1 medium-10 columns">
 				<h2>
 					<strong>Brand Central Difference.</strong>
 				</h2>
@@ -131,7 +131,7 @@ Hark::Init();
 	</a>
 	<a id="brand-central-station" href="javascript:alert('I need a place to go!');">
 		<div class="row">
-			<div class="small-offset-1 small-10 columns">
+			<div class="small-offset-2 small-8 medium-offset-1 medium-10 columns">
 				<h2>
 					<strong>Brand Central Station.</strong>
 				</h2>

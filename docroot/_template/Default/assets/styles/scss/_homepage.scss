@@ -213,14 +213,16 @@ body.root-index {
 	}
 }
 
+$case-studies-height-small-only: 800px;
+$case-studies-height-medium-up: 1200px;
 #CaseStudies {
 
 	@media #{$small-only} {
-		height: 720px;
+		height: $case-studies-height-small-only;
 	}
 
 	@media #{$medium-up} {
-		min-height: 1200px;
+		min-height: $case-studies-height-medium-up;
 	}
 
 
@@ -257,10 +259,10 @@ body.root-index {
 	padding: 0;
 	height: 0;
 	&>* {
-		top: -6rem;
+		top: -3rem;
 		z-index: 4;
-		@media #{$small-only} {
-			top: -3rem;
+		@media #{$medium-up} {
+			top: -6rem;
 		}
 	}
 }
@@ -270,10 +272,16 @@ body.root-index {
 	> * {
 		display: inline-block;
 		background: rgba(orange,0.7);
-		height: $layer-height;
 		z-index: 5;
 		cursor: pointer;
 		position: absolute;
+		@media #{$small-only} {
+			height: $case-studies-height-small-only;
+		}
+
+		@media #{$medium-up} {
+			min-height: $case-studies-height-medium-up;
+		}
 		&:first-child {
 			left: 0;
 		}
