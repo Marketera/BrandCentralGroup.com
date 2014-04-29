@@ -339,3 +339,10 @@ body.root-index {
 		}
 	}
 }
+
+@media #{$small-only} {
+	small {
+		font-size: 40% !important;
+	}
+	
+}
