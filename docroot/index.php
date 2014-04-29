@@ -102,10 +102,10 @@ Hark::Init();
 <!--	</div>-->
 </div>
 
-<div class="layer layer-anchor ambient-slider" id="CaseStudies">
+<div class="layer layer-anchor ambient-slider add-controls" id="CaseStudies">
 	<a id="brand-central-difference" href="javascript:alert('I need a place to go!');">
 		<div class="row">
-			<div class="small-12 large-offset-1 large-9 columns">
+			<div class="small-offset-1 small-10 columns">
 				<h2>
 					<strong>Brand Central Difference.</strong>
 				</h2>
@@ -131,7 +131,7 @@ Hark::Init();
 	</a>
 	<a id="brand-central-station" href="javascript:alert('I need a place to go!');">
 		<div class="row">
-			<div class="small-12 large-offset-1 large-9 columns">
+			<div class="small-offset-1 small-10 columns">
 				<h2>
 					<strong>Brand Central Station.</strong>
 				</h2>

@@ -81,9 +81,9 @@ $('.Slideshow').each(function(){
 $('.ambient-slider').each(function(){
 	var autoslide = true,
 		$slider = $(this),
-		$slides = $slider.children(),
+		$slides = $slider.children().not('.ignore'),
 		$dots = $('<aside/>').addClass('ambient-slider-dots').hide().insertAfter($slider),
-		currentSlide, $active, defaultSlide = 1, interval,
+		$controls, currentSlide, $active, defaultSlide = 1, interval,
 		slipTo = function(slideNumber) {
 			if (typeof slideNumber === 'string' && !parseInt(slideNumber) && currentSlide) {
 				switch (slideNumber.toLowerCase()) {
@@ -141,6 +141,7 @@ $('.ambient-slider').each(function(){
 			return this;
 		};
 
+
 	$slides.each(function(idx){
 		$('<span/>').attr({
 			href: '#'+(idx+1)
@@ -156,11 +157,25 @@ $('.ambient-slider').each(function(){
 			}
 		});
 	});
-	if ($dots.children().length > 1) $dots.show();
+	if ($dots.children().length > 1) {
+		$dots.show();
+		if ($slider.hasClass('add-controls')) {
+			$controls = $('<aside/>').addClass('ambient-slider-controls row').insertBefore($slider);
+			$('<span/>').click(function(e){
+				e.preventDefault();
+				slipTo('prev');
+			}).appendTo($controls).addClass('small-1 left');
+			$('<span/>').click(function(e){
+				e.preventDefault();
+				slipTo('next');
+			}).appendTo($controls).addClass('small-1 right');
+		}
+	}
 	slipTo(defaultSlide);
 	$slider.data('slider',slipTo);
 	$slider.find('.deactivate-slider-spot')
 		.add($dots.children())
+		.add($controls)
 		.add($('#cboxOverlay,#colorbox,#DemoChoice'))
 		.mouseover(function(){
 			autoslide = false;
@@ -172,6 +187,14 @@ $('.ambient-slider').each(function(){
 			slipTo('next');
 		}
 	},7000);
+});
+$('.ambient-prev').click(function(e){
+	e.preventDefault();
+	$(this).closest('.ambient-slider').data('slider')('prev');
+});
+$('.ambient-next').click(function(e){
+	e.preventDefault();
+	$(this).closest('.ambient-slider').data('slider')('next');
 });
 
 

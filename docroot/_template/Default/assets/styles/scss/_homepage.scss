@@ -219,15 +219,30 @@ body.root-index {
 .ambient-slider-dots {
 	padding: 0;
 	height: 0;
-
 	&>* {
 		top: -6rem;
 		z-index: 4;
-
 		@media #{$small-only} {
 			top: -3rem;
 		}
-
+	}
+}
+.ambient-slider-controls {
+	padding: 0; height: 0;
+	position: relative;
+	> * {
+		display: inline-block;
+		background: rgba(orange,0.7);
+		height: $layer-height;
+		z-index: 5;
+		cursor: pointer;
+		position: absolute;
+		&:first-child {
+			left: 0;
+		}
+		&:last-child {
+			right: 0;
+		}
 	}
 }
 
