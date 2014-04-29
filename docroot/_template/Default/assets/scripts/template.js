@@ -164,11 +164,11 @@ $('.ambient-slider').each(function(){
 			$('<span/>').click(function(e){
 				e.preventDefault();
 				slipTo('prev');
-			}).appendTo($controls).addClass('small-2 medium-1 left');
+			}).appendTo($controls).addClass('small-1 left');
 			$('<span/>').click(function(e){
 				e.preventDefault();
 				slipTo('next');
-			}).appendTo($controls).addClass('small-2 medium-1 right');
+			}).appendTo($controls).addClass('small-1 right');
 		}
 	}
 	slipTo(defaultSlide);
