@@ -123,7 +123,7 @@ Hark::Init();
 						leaving this text out. Less is more.
 					</p>
 				</div>
-				<p>
+				<p class="small-only-text-center">
 					<span class="large success button deactivate-slider-spot">Learn More</span>
 				</p>
 			</div>
@@ -149,7 +149,7 @@ Hark::Init();
 						leaving this text out. Less is more.
 					</p>
 				</div>
-				<p>
+				<p class="small-only-text-center">
 					<span class="large success button deactivate-slider-spot">Choo! Choo!</span>
 				</p>
 			</div>
