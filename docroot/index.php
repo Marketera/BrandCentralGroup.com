@@ -48,40 +48,58 @@ Hark::Init();
 				Our Proven
 				<strong>Methodology.</strong>
 			</h2>
+			<p><img src="http://fpoimg.com/600x300"></p>
+			<p>
+				<a class="large success button activatable-next" href="#Services">Learn More</a>
+			</p>
 		</div>
 		<div>
 			<h2 class="small-12 columns">
 				Our Proven
 				<strong>Experience.</strong>
 			</h2>
+			<p><img src="http://fpoimg.com/600x300"></p>
+			<p>
+				<a class="large success button activatable-next" href="#Services">Learn Even More</a>
+			</p>
 		</div>
 		<div>
 			<h2 class="small-12 columns">
 				Our Proven
 				<strong>Leadership.</strong>
 			</h2>
+			<p><img src="http://fpoimg.com/600x300"></p>
+			<p>
+				<a class="large success button activatable-next" href="#Services">Seriously, Learn More</a>
+			</p>
 		</div>
 		<div>
 			<h2 class="small-12 columns">
 				Our Proven
 				<strong>Longevity.</strong>
 			</h2>
+			<p><img src="http://fpoimg.com/600x300"></p>
+			<p>
+				<a class="large success button activatable-next" href="#Services">Learn a Lot More</a>
+			</p>
 		</div>
 		<div>
 			<h2 class="small-12 columns">
 				Our Proven
 				<strong>Klingon Skills.</strong>
 			</h2>
+			<p><img src="http://fpoimg.com/600x300"></p>
+			<p>
+				<a class="large success button activatable-next" href="#Services">Latlh Ghoj</a><br/>
+				<small>That's "Learn More" in Klingon</small>
+			</p>
 		</div>
 	</div>
-	<div class="call-to-action">
-		<p class="slide-control">
-			<a class="activatable-next" href="#Services"><img src="_template/Default/assets/images/homepage/down-large.png" alt="More Services"></a>
-		</p>
-		<p>
-			<a class="large success button" href="javascript:alert('I need a place to go!');">Learn More</a>
-		</p>
-	</div>
+<!--	<div class="call-to-action">-->
+<!--		<p class="slide-control">-->
+<!--			<a class="activatable-next"><img src="_template/Default/assets/images/homepage/down-large.png" alt="More Services"></a>-->
+<!--		</p>-->
+<!--	</div>-->
 </div>
 
 <div class="layer layer-anchor ambient-slider" id="CaseStudies">
