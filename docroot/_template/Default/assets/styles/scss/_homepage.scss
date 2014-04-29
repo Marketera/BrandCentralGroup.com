@@ -13,6 +13,10 @@ body.root-index {
 	}
 	.layer {
 		min-height: $layer-height;
+
+		@media #{$small-only} {
+			min-height: 0 !important;
+		}
 	}
 }
 
@@ -24,11 +28,31 @@ body.root-index {
 	height: 100vh;
 	min-height: 600px;
 
+	@media #{$small-only} {
+		height: 480px;
+		min-height: 480px;
+	}
+
 	.Slideshow {
 		&>* {
-			position: absolute; top: 0; bottom: 0;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			
 			width: 100%;
-			background-size: cover;
+			background-size: cover !important;
+
+			@media #{$small-only} {
+				background-repeat: no-repeat !important;
+				background-position: 50% 0;
+				max-height: 500px;
+			}
+
+			@media #{$medium-only} {
+				background-repeat: no-repeat !important;
+				background-position: 50% 0;
+			}
+
 			opacity: 0;
 			@include single-transition(opacity 1s);
 			&.active {
@@ -38,24 +62,49 @@ body.root-index {
 	}
 
 	.content {
-		height: $layer-height*.65;
-		min-height: 80vh;
 		position: relative;
+
+
+		@media #{$medium-up} {
+			height: $layer-height*.65;
+			min-height: 80vh;
+		}
+
+		@media #{$small-only} {
+			max-height: 350px;
+		}
+
 		// Help define the characters against the busy
 		// background a little more:
 		@include text-shadow(0 0 2px rgba(black,0.6));
 		&>div {
 			position: absolute;
 			bottom: 0;
+			@media #{$small-only} {
+				bottom: auto;
+				top: 100px;
+			}
 		}
 		p {
 			font-size: 1.75rem;
 			color: $brand-base-inverse;
+			
+			@media #{$small-only} {
+				font-size: 1rem;
+			}
 		}
 	}
 	h1 {
 		color: $brand-base-inverse;
 		text-transform: uppercase;
+
+		@media #{$small-only} {
+			font-size: 2.4rem;
+		}
+
+		@media #{$medium-only} {
+			font-size: 5.25rem;
+		}
 	}
 
 	.call-to-action {
@@ -81,6 +130,11 @@ body.root-index {
 	text-align: center;
 	overflow: hidden;
 	position: relative;
+
+	@media #{$small-only} {
+		height: 480px;
+	}
+
 	.tabset-holder {
 		position: relative;
 		&>* {
@@ -98,18 +152,41 @@ body.root-index {
 	h2 {
 		padding-top: 260px;
 		padding-bottom: 200px;
+
+		@media #{$small-only} {
+			padding-top: 110px;
+			padding-bottom: 50px;
+			font-size: 2.3rem;
+		}
+
+		@media #{$medium-only} {
+		
+		}
+
 	}
 	.call-to-action {
 		position: absolute;
 		bottom: 100px;
 		width: 100%;
+		@media #{$small-only} {
+			bottom: 0;
+		}
 	}
 	p {
 		padding-top: 100px;
+		@media #{$small-only} {
+			padding-top: 30px;
+		}
 	}
 }
 
 #CaseStudies {
+
+	@media #{$small-only} {
+		height: 720px;
+	}
+
+
 	&>* {
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -122,9 +199,16 @@ body.root-index {
 	}
 	h2 {
 		padding: 10rem 0 2rem;
+		@media #{$small-only} {
+			font-size: 2.7rem;
+			padding: 2rem 0 1rem;
+		}
 	}
 	h3 {
 		color: $brand-base-inverse;
+		@media #{$small-only} {
+			font-size: 1.75rem;
+		}
 	}
 	p {
 		color: $brand-base-inverse;
@@ -139,6 +223,11 @@ body.root-index {
 	&>* {
 		top: -6rem;
 		z-index: 4;
+
+		@media #{$small-only} {
+			top: -3rem;
+		}
+
 	}
 }
 
@@ -154,14 +243,28 @@ body.root-index {
 	overflow: hidden;
 	padding-bottom: 10rem;
 	@include texture(noise-light);
+
+	@media #{$small-only} {
+		padding-bottom: 1.5rem;
+	}
+
 	h2 {
 		padding: 10rem 0 1rem;
 		color: $primary-color;
+		@media #{$small-only} {
+			font-size: 2rem;
+			padding: 3rem 0 1rem;
+		}
 	}
 	dl {
 		@include sub-nav();
 		text-transform: uppercase;
 		margin-bottom: 5rem;
+
+		@media #{$small-only} {
+			margin-bottom: 1rem;
+		}
+
 		dd {
 			margin-right: 1rem;
 		}
@@ -187,6 +290,9 @@ body.root-index {
 		.columns {
 			line-height: 150px; // Sets a common height and aligns images vertically to the middle
 			margin-bottom: 5rem;
+			@media #{$small-only} {
+				margin-bottom: 0;
+			}
 		}
 	}
 }
@@ -199,13 +305,30 @@ body.root-index {
 	h2 {
 		padding-top: 12rem;
 		padding-bottom: 8rem;
+		@media #{$small-only} {
+			font-size: 2rem;
+			padding-top: 2rem;
+			padding-bottom: 1rem;
+		}
 	}
 	h2, h5 {
 		color: $brand-base-light-inverse;
 	}
+	
+	h5 {
+		@media #{$small-only} {
+			padding-top: 1rem;
+		}
+	}
+	
 	p {
 		@include ellipsis;
 		color: $brand-base-light;
+
+		@media #{$small-only} {
+			font-size: 1.2rem;
+		}
+
 		a, .gc-cs-link {
 			// .gc-cs-link is the class that the Google Voice
 			// browser extension automatically adds to phone
