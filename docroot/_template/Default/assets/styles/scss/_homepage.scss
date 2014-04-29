@@ -1,6 +1,6 @@
 @import 'config';
 
-$layer-height: 1200px;
+$layer-height: 800px;
 body.root-index {
 	&.f-topbar-fixed {
 		padding-top: 0;
@@ -12,10 +12,12 @@ body.root-index {
 		}
 	}
 	.layer {
-		min-height: $layer-height;
+		//min-height: $layer-height;
+		min-height: 100vh;
 
 		@media #{$small-only} {
-			min-height: 0 !important;
+			//min-height: 0 !important;
+			min-height: 480px;
 		}
 	}
 }
@@ -25,12 +27,21 @@ body.root-index {
 	background: black;
 
 	// Adjust the height/margin/padding for the topbar.
+/*
 	height: 100vh;
 	min-height: 600px;
+*/
 
 	@media #{$small-only} {
-		height: 480px;
-		min-height: 480px;
+		//height: 480px;
+		//min-height: 480px;
+	}
+
+	@media #{$medium-up} {
+		/* if less than 800px... then make it 800px! without overriding min-height: 100vh */
+		@media only screen and (max-height: 800px) {
+			min-height: 800px;
+		}
 	}
 
 	.Slideshow {
@@ -45,7 +56,7 @@ body.root-index {
 			@media #{$small-only} {
 				background-repeat: no-repeat !important;
 				background-position: 50% 0;
-				max-height: 500px;
+				//max-height: 500px;
 			}
 
 			@media #{$medium-only} {
@@ -64,19 +75,30 @@ body.root-index {
 	.content {
 		position: relative;
 
+		@media #{$medium-up} {
+			padding-top: 180px;
 
+			@media only screen and (min-height: 800px) {
+				padding-top: 270px;
+			}
+		}
+
+/*
 		@media #{$medium-up} {
 			height: $layer-height*.65;
 			min-height: 80vh;
 		}
+*/
 
 		@media #{$small-only} {
-			max-height: 350px;
+			padding-top: 150px;
+			//max-height: 350px;
 		}
 
 		// Help define the characters against the busy
 		// background a little more:
 		@include text-shadow(0 0 2px rgba(black,0.6));
+/*
 		&>div {
 			position: absolute;
 			bottom: 0;
@@ -85,6 +107,7 @@ body.root-index {
 				top: 100px;
 			}
 		}
+*/
 		p {
 			font-size: 1.75rem;
 			color: $brand-base-inverse;
@@ -113,6 +136,7 @@ body.root-index {
 		bottom: 0;
 		width: 100%;
 	}
+	
 	.button {
 		background: transparent;
 		font-size: 1.5rem;
@@ -132,8 +156,13 @@ body.root-index {
 	position: relative;
 
 	@media #{$small-only} {
-		height: 480px;
+		min-height: 640px;
 	}
+
+	@media #{$medium-up} {
+		min-height: 1200px;	
+	}
+
 
 	.tabset-holder {
 		position: relative;
@@ -145,22 +174,18 @@ body.root-index {
 			@include transition(600ms);
 			&.active {
 				top: 0;
-				opacity: 1;
+				opacity: 1;				
 			}
 		}
 	}
 	h2 {
-		padding-top: 260px;
-		padding-bottom: 200px;
+		padding-top: 160px;
+		padding-bottom: 60px;
 
 		@media #{$small-only} {
-			padding-top: 110px;
-			padding-bottom: 50px;
+			padding-top: 80px;
+			padding-bottom: 20px;
 			font-size: 2.3rem;
-		}
-
-		@media #{$medium-only} {
-		
 		}
 
 	}
@@ -169,13 +194,21 @@ body.root-index {
 		bottom: 100px;
 		width: 100%;
 		@media #{$small-only} {
-			bottom: 0;
+			bottom: 10px;
 		}
 	}
+	
 	p {
 		padding-top: 100px;
 		@media #{$small-only} {
-			padding-top: 30px;
+			padding-top: 20px;
+		}
+	}
+	
+	.button {
+		@media #{$small-only} {
+			position: relative;
+			z-index: 10;
 		}
 	}
 }
@@ -184,6 +217,10 @@ body.root-index {
 
 	@media #{$small-only} {
 		height: 720px;
+	}
+
+	@media #{$medium-up} {
+		min-height: 1200px;
 	}
 
 
@@ -255,12 +292,16 @@ body.root-index {
 }
 
 #Clients {
-	overflow: hidden;
+	overflow-x: hidden;
 	padding-bottom: 10rem;
 	@include texture(noise-light);
 
 	@media #{$small-only} {
 		padding-bottom: 1.5rem;
+	}
+
+	@media #{$medium-up} {
+		min-height: 1200px;
 	}
 
 	h2 {
@@ -302,6 +343,11 @@ body.root-index {
 	section {
 		@include float(left);
 		width: 100%/$number-of-customer-sections;
+		
+		display: inline-block;
+		float: left;
+		
+		
 		.columns {
 			line-height: 150px; // Sets a common height and aligns images vertically to the middle
 			margin-bottom: 5rem;
@@ -315,7 +361,10 @@ body.root-index {
 #Contact {
 	@include texture(noise-dark);
 	text-transform: uppercase;
-	min-height: $layer-height - 100px;
+
+	@media #{$medium-up} {
+		min-height: 1050px;
+	}
 
 	h2 {
 		padding-top: 12rem;
@@ -341,7 +390,7 @@ body.root-index {
 		color: $brand-base-light;
 
 		@media #{$small-only} {
-			font-size: 1.2rem;
+			font-size: 1rem !important;
 		}
 
 		a, .gc-cs-link {
@@ -360,4 +409,9 @@ body.root-index {
 		font-size: 40% !important;
 	}
 	
+}
+
+
+.clear {
+	clear: both;
 }
