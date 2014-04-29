@@ -201,10 +201,11 @@ $('.ambient-next').click(function(e){
 var freezeSubNav = false,
 	$topBarSection = $('.top-bar-section');
 
+$(document).on('click', '#menu-link', function(e){
+	$(this).addClass('clicked');
+});
+
 $topBarSection.on('click', '.nav-link', function(e){
-
-	$('#menu-link').trigger('click');
-
 
 	var $this = $(this),
 		$parent = $this.parent(),
@@ -212,6 +213,9 @@ $topBarSection.on('click', '.nav-link', function(e){
 		offset = ($layer.length) ? $layer.offset().top : 0;
 
 	e.preventDefault();
+	
+	
+	$('#menu-link.clicked').trigger('click').removeClass('clicked');
 
 	$parent.addClass('active').siblings('.active').removeClass('active');
 	freezeSubNav = true;
