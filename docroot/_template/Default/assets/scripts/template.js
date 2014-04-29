@@ -30,7 +30,7 @@ $body.on('click','.activatable,.activatable-tabs>a,.activatable-tabs>dd>a',funct
 	$Next = $GetElemByHrefHash(this_href,$parent);
 	if (isCarousel) {
 		$NextParentChildren = $Next.parent().children();
-		console.log('INDEX',$NextParentChildren.index($Next));
+		//console.log('INDEX',$NextParentChildren.index($Next));
 		$Next.parent().css('margin-left',(-100 * $NextParentChildren.index($Next))+'%');
 	}
 	$this.add($Next).addClass(ActivatedClasses);
@@ -202,6 +202,10 @@ var freezeSubNav = false,
 	$topBarSection = $('.top-bar-section');
 
 $topBarSection.on('click', '.nav-link', function(e){
+
+	$('#menu-link').trigger('click');
+
+
 	var $this = $(this),
 		$parent = $this.parent(),
 		$layer = $($this.attr('href')),
@@ -215,8 +219,13 @@ $topBarSection.on('click', '.nav-link', function(e){
 	$("html, body").stop().animate({ scrollTop: offset }, function(){
 		$parent.addClass('active');
 		freezeSubNav = false;
+		
+		//$('body').addClass('f-topbar-fixed');
+		//$('nav.top-bar').removeClass('expanded').removeClass('fixed');
+		//$('#header-bar').addClass('fixed');
+		
 	});
-
+	
 	return false;
 });
 

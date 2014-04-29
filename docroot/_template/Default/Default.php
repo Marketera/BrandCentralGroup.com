@@ -28,7 +28,7 @@
 		<ul class="title-area">
 			<li class="name show-for-large-up"><h1><a class="home-link" href="<?php echo HarkConfig::HomeURL() ?>/#"><img src="<?php Hark::CacheBuster('assets/images/template/brand-central.png') ?>" alt="Brand Central"></a></h1></li>
 			<li class="name show-for-medium-down"><h1><a class="home-link" href="<?php echo HarkConfig::HomeURL() ?>/#" style="overflow:hidden;width:60px;"><img style="max-width:none;" src="<?php Hark::CacheBuster('assets/images/template/brand-central.png') ?>" alt="Brand Central"></a></h1></li>
-			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+			<li class="toggle-topbar menu-icon"><a href="#" id="menu-link"><span>Menu</span></a></li>
 		</ul>
 		<section class="top-bar-section">
 			<!-- Right Nav Section -->
