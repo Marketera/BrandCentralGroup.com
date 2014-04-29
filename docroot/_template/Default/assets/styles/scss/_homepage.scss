@@ -18,6 +18,7 @@ body.root-index {
 		@media #{$small-only} {
 			//min-height: 0 !important;
 			min-height: 480px;
+			padding: 50px 0;
 		}
 	}
 }
@@ -223,6 +224,7 @@ $case-studies-height-medium-up: 1200px;
 
 	@media #{$small-only} {
 		height: $case-studies-height-small-only;
+		padding-top: 5em;
 	}
 
 	@media #{$medium-up} {
@@ -234,6 +236,10 @@ $case-studies-height-medium-up: 1200px;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center top;
+
+		@media #{$small-only} {
+			padding-top: 5rem;
+		}
 	}
 	h2, h3, p {
 		// Help define the characters against the busy
@@ -317,6 +323,7 @@ $case-studies-height-medium-up: 1200px;
 
 	@media #{$small-only} {
 		padding-bottom: 1.5rem;
+		padding-top: 5rem;
 	}
 
 	@media #{$medium-up} {
