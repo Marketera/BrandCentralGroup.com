@@ -156,11 +156,11 @@ body.root-index {
 	position: relative;
 
 	@media #{$small-only} {
-		min-height: 600px;
+		min-height: 640px;
 	}
 
 	@media #{$medium-up} {
-		min-height: 1000px;	
+		min-height: 1200px;	
 	}
 
 
