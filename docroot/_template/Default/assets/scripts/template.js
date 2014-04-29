@@ -207,6 +207,8 @@ $(document).on('click', '#menu-link', function(e){
 
 $topBarSection.on('click', '.nav-link', function(e){
 
+	$('#menu-link.clicked').trigger('click').removeClass('clicked');
+
 	var $this = $(this),
 		$parent = $this.parent(),
 		$layer = $($this.attr('href')),
@@ -215,8 +217,6 @@ $topBarSection.on('click', '.nav-link', function(e){
 	e.preventDefault();
 	
 	
-	$('#menu-link.clicked').trigger('click').removeClass('clicked');
-
 	$parent.addClass('active').siblings('.active').removeClass('active');
 	freezeSubNav = true;
 
