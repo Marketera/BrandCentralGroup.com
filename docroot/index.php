@@ -15,9 +15,11 @@ Hark::Init();
 
 <div class="layer layer-anchor" id="Introduction" data-selector=".nav-link.home">
 	<div class="Slideshow" data-seconds="5">
-		<div class="active" style="background-image:url('_template/Default/assets/images/homepage/bubble-gum.jpg')"></div>
-		<div style="background-image:url('http://i.imgur.com/uRBtadp.jpg');"></div>
-		<div style="background-image:url('http://www.wallpele.com/wp-content/uploads/2014/03/funny-shark-pictures.jpg')"></div>
+		<div class="active" style="background-image:url('_template/Default/assets/images/homepage/hero-01-hubba-bubba.jpg')"></div>
+		<div style="background-image:url('_template/Default/assets/images/homepage/hero-02-snapple.jpg')"></div>
+		<div style="background-image:url('_template/Default/assets/images/homepage/hero-03-fifth-grader.jpg')"></div>
+		<div style="background-image:url('_template/Default/assets/images/homepage/hero-04-e-entertainment.jpg')"></div>
+		<div style="background-image:url('_template/Default/assets/images/homepage/hero-05-pulp-fiction.jpg')"></div>
 	</div>
 	<div class="row content">
 		<div class="small-12 large-offset-1 large-11 columns">
