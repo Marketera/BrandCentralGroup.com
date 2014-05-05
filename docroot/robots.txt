@@ -3,3 +3,6 @@
 
 User-agent: *
 Disallow: *wp-admin*
+
+# Disallow all for now (while we test)
+Disallow: /
