@@ -31,7 +31,7 @@ Hark::Init();
 			<div class="row">
 				<p class="small-12 medium-7 large-5 columns">
 					We deepen the emotional connection
-					between your brand and consumers. 
+					between your brand and consumers. TEST
 				</p>
 			</div>
 		</div>
