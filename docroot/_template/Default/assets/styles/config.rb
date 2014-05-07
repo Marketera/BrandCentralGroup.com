@@ -1,5 +1,5 @@
 gem 'compass', '=0.12.6'
-gem 'oily_png', '=1.1.1'
+#gem 'oily_png', '=1.1.1' #Can't install on Mac for some reason
 gem 'sass', '=3.2.19'
 
 # Set this to the root of your project when deployed:
