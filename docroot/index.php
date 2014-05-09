@@ -23,15 +23,12 @@ Hark::Init();
 	</div>
 	<div class="row content">
 		<div class="small-12 large-offset-1 large-11 columns">
-			<h1 class="">
-				Brand is at
-				<strong>the Center</strong>
-				of All We Do.
+			<h1 class="" stlye="display: inline">
+				<strong style="display: inline">Brand</strong> is at <br>the <strong style="display: inline">center</strong> <br>of what we do.
 			</h1>
 			<div class="row">
 				<p class="small-12 medium-7 large-5 columns">
-					We deepen the emotional connection
-					between your brand and consumers. TEST
+					We deepen the emotional connection between your brand and consumers.
 				</p>
 			</div>
 		</div>
