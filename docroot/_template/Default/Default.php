@@ -33,10 +33,10 @@
 		<section class="top-bar-section">
 			<!-- Right Nav Section -->
 			<ul class="right show-for-large-up">
-				<li><a target="_blank" href="https://www.facebook.com/pages/Brand-Central-Group/607999419243287"><img src="<?php Hark::CacheBuster('assets/images/template/iconset/facebook.png') ?>" alt="Facebook"></a></li>
-				<li><a target="_blank" href="http://Twitter.com/NathanBrauer"><img src="<?php Hark::CacheBuster('assets/images/template/iconset/twitter.png') ?>" alt="Twitter"></a></li>
-				<li><a target="_blank" href="http://Pinterest.com/"><img src="<?php Hark::CacheBuster('assets/images/template/iconset/pinterest.png') ?>" alt="Pinterest"></a></li>
-				<li><a target="_blank" href="http://plus.google.com/+NathanJBrauer/"><img src="<?php Hark::CacheBuster('assets/images/template/iconset/google-plus.png') ?>" alt="Google Plus"></a></li>
+				<li><a target="_blank" href="#"><img src="<?php Hark::CacheBuster('assets/images/template/iconset/facebook.png') ?>" alt="Facebook"></a></li>
+				<li><a target="_blank" href="#"><img src="<?php Hark::CacheBuster('assets/images/template/iconset/twitter.png') ?>" alt="Twitter"></a></li>
+				<li><a target="_blank" href="#"><img src="<?php Hark::CacheBuster('assets/images/template/iconset/pinterest.png') ?>" alt="Pinterest"></a></li>
+				<li><a target="_blank" href="#"><img src="<?php Hark::CacheBuster('assets/images/template/iconset/google-plus.png') ?>" alt="Google Plus"></a></li>
 			</ul>
 
 			<!-- Left Nav Section -->
@@ -45,8 +45,8 @@
 				<li><a class="nav-link Services" href="#Services">Services</a></li>
 				<li><a class="nav-link" href="#CaseStudies">Case Studies</a></li>
 				<li><a class="nav-link" href="#Clients">Clients</a></li>
-				<li><a class="nav-link-disabled" href="javascript:alert('I need somewhere to go!')">Team</a></li>
-				<li><a class="nav-link-disabled" href="javascript:alert('I need somewhere to go!')">Blog</a></li>
+				<!-- <li><a class="nav-link-disabled" href="javascript:alert('I need somewhere to go!')">Team</a></li>
+				<li><a class="nav-link-disabled" href="javascript:alert('I need somewhere to go!')">Blog</a></li> -->
 				<li><a class="nav-link" href="#Contact">Contact</a></li>
 			</ul>
 		</section>

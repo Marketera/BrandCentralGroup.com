@@ -44,53 +44,39 @@ Hark::Init();
 	<div class="row tabset-holder">
 		<div class="active">
 			<h2 class="small-12 columns">
-				Our Proven
-				<strong>Methodology.</strong>
+				We have a proven <strong>Methodology</strong>
 			</h2>
-			<p><img src="http://fpoimg.com/600x300"></p>
+			<p><img src="_template/Default/assets/images/homepage/methodology.png"></p>
 			<p>
-				<a class="large success button activatable-next" href="#Services">Learn More</a>
+				<a class="large success button activatable-next" style="top:-60px" href="#Services">Learn More</a>
 			</p>
 		</div>
 		<div>
-			<h2 class="small-12 columns">
-				Our Proven
-				<strong>Experience.</strong>
+			<h2 class="small-12 columns" style="top: -100px">
+				We <strong style="display: inline">operate</strong> in the<br> entire licensing <br><strong style="display: inline">value chain</strong>
 			</h2>
-			<p><img src="http://fpoimg.com/600x300"></p>
+			<p><img src="_template/Default/assets/images/homepage/value-chain.png" style="margin-top:-140px"></p>
 			<p>
-				<a class="large success button activatable-next" href="#Services">Learn Even More</a>
+				<a class="large success button activatable-next" style="top:-100px" href="#Services">Learn More</a>
 			</p>
 		</div>
+		
 		<div>
-			<h2 class="small-12 columns">
-				Our Proven
-				<strong>Leadership.</strong>
-			</h2>
-			<p><img src="http://fpoimg.com/600x300"></p>
-			<p>
-				<a class="large success button activatable-next" href="#Services">Seriously, Learn More</a>
+			<h2 class="small-12 columns" style="top:-40px">
+				We are <strong style="display: inline">Hands on</strong> 
+			</h2><p><img src="_template/Default/assets/images/homepage/hands-on.png" style="margin-top:-40px"></p>
+			
+				<a class="large success button activatable-next" style="top:20px" href="#Services">Learn More</a>
 			</p>
 		</div>
+
+		
 		<div>
 			<h2 class="small-12 columns">
-				Our Proven
-				<strong>Longevity.</strong>
+				Named top <strong style="display: inline">10 best</strong> licensing agencies <br>by licensing <br>magazine the past <br><strong style="display: inline">4 consecutive years</strong>
 			</h2>
-			<p><img src="http://fpoimg.com/600x300"></p>
-			<p>
-				<a class="large success button activatable-next" href="#Services">Learn a Lot More</a>
-			</p>
-		</div>
-		<div>
-			<h2 class="small-12 columns">
-				Our Proven
-				<strong>Klingon Skills.</strong>
-			</h2>
-			<p><img src="http://fpoimg.com/600x300"></p>
-			<p>
-				<a class="large success button activatable-next" href="#Services">Latlh Ghoj</a><br/>
-				<small>That's "Learn More" in Klingon.</small>
+			
+				<a class="large success button activatable-next" href="#Services">See our case studies</a>
 			</p>
 		</div>
 	</div>
@@ -118,8 +104,7 @@ Hark::Init();
 				</div>
 				<div class="row">
 					<p class="small-12 medium-7 large-6 columns">
-						Lorem ipsum dolor sit amet, you may consider
-						leaving this text out. Less is more.
+						We secured and E! News airport store at LAX with industry leader Hudson News for a 10 year partnership.
 					</p>
 				</div>
 				<p class="small-only-text-center">
