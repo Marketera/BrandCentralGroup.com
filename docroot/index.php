@@ -13,81 +13,7 @@ $page['BodyClasses'] = array();
 Hark::Init();
 ?>
 
-<div class="layer layer-anchor" id="Introduction" data-selector=".nav-link.home">
-	<div class="Slideshow" data-seconds="5">
-		<div class="active" style="background-image:url('_template/Default/assets/images/homepage/hero-01-hubba-bubba.jpg')"></div>
-		<div style="background-image:url('_template/Default/assets/images/homepage/hero-02-snapple.jpg')"></div>
-		<div style="background-image:url('_template/Default/assets/images/homepage/hero-03-fifth-grader.jpg')"></div>
-		<div style="background-image:url('_template/Default/assets/images/homepage/hero-04-e-entertainment.jpg')"></div>
-		<div style="background-image:url('_template/Default/assets/images/homepage/hero-05-pulp-fiction.jpg')"></div>
-	</div>
-	<div class="row content">
-		<div class="small-12 large-offset-1 large-11 columns">
-			<h1 class="" stlye="display: inline">
-				<strong style="display: inline">Brand</strong> is at <br>the <strong style="display: inline">center</strong> <br>of what we do.
-			</h1>
-			<div class="row">
-				<p class="small-12 medium-7 large-5 columns">
-					We deepen the emotional connection between your brand and consumers.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="call-to-action">
-		<div class="text-center">
-			<a class="large button" href="#Services" onclick="$('.nav-link.Services').click();return false;">Learn More</a>
-		</div>
-	</div>
-</div>
-
-<div class="layer layer-anchor" id="Services">
-	<div class="row tabset-holder">
-		<div class="active">
-			<h2 class="small-12 columns">
-				We have a proven <strong>Methodology</strong>
-			</h2>
-			<p><img src="_template/Default/assets/images/homepage/methodology.png"></p>
-			<p>
-				<a class="large success button activatable-next" style="top:-60px" href="#Services">Learn More</a>
-			</p>
-		</div>
-		<div>
-			<h2 class="small-12 columns" style="top: -100px">
-				We <strong style="display: inline">operate</strong> in the<br> entire licensing <br><strong style="display: inline">value chain</strong>
-			</h2>
-			<p><img src="_template/Default/assets/images/homepage/value-chain.png" style="margin-top:-140px"></p>
-			<p>
-				<a class="large success button activatable-next" style="top:-100px" href="#Services">Learn More</a>
-			</p>
-		</div>
-		
-		<div>
-			<h2 class="small-12 columns" style="top:-40px">
-				We are <strong style="display: inline">Hands on</strong> 
-			</h2><p><img src="_template/Default/assets/images/homepage/hands-on.png" style="margin-top:-40px"></p>
-			
-				<a class="large success button activatable-next" style="top:20px" href="#Services">Learn More</a>
-			</p>
-		</div>
-
-		
-		<div>
-			<h2 class="small-12 columns">
-				Named top <strong style="display: inline">10 best</strong> licensing agencies <br>by licensing <br>magazine the past <br><strong style="display: inline">4 consecutive years</strong>
-			</h2>
-			
-				<a class="large success button activatable-next" href="#Services">See our case studies</a>
-			</p>
-		</div>
-	</div>
-<!--	<div class="call-to-action">-->
-<!--		<p class="slide-control">-->
-<!--			<a class="activatable-next"><img src="_template/Default/assets/images/homepage/down-large.png" alt="More Services"></a>-->
-<!--		</p>-->
-<!--	</div>-->
-</div>
-
-<div class="layer layer-anchor ambient-slider add-controls" id="CaseStudies">
+<div class="layer layer-anchor ambient-slider add-controls" id="CaseStudies" data-selector=".nav-link.home">
 	<a id="brand-central-difference" href="javascript:alert('I need a place to go!');">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
@@ -141,6 +67,79 @@ Hark::Init();
 	</a>
 </div>
 
+<!--div class="layer layer-anchor" id="Introduction" data-selector=".nav-link.home">
+	<div class="Slideshow" data-seconds="5">
+		<div class="active" style="background-image:url('_template/Default/assets/images/homepage/hero-01-hubba-bubba.jpg')"></div>
+		<div style="background-image:url('_template/Default/assets/images/homepage/hero-02-snapple.jpg')"></div>
+		<div style="background-image:url('_template/Default/assets/images/homepage/hero-03-fifth-grader.jpg')"></div>
+		<div style="background-image:url('_template/Default/assets/images/homepage/hero-04-e-entertainment.jpg')"></div>
+		<div style="background-image:url('_template/Default/assets/images/homepage/hero-05-pulp-fiction.jpg')"></div>
+	</div>
+	<div class="row content">
+		<div class="small-12 large-offset-1 large-11 columns">
+			<h1 class="" stlye="display: inline">
+				<strong style="display: inline">Brand</strong> is at <br>the <strong style="display: inline">center</strong> <br>of what we do.
+			</h1>
+			<div class="row">
+				<p class="small-12 medium-7 large-5 columns">
+					We deepen the emotional connection between your brand and consumers.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="call-to-action">
+		<div class="text-center">
+			<a class="large button" href="#Services" onclick="$('.nav-link.Services').click();return false;">Learn More</a>
+		</div>
+	</div>
+</div-->
+
+<div class="layer layer-anchor" id="Services">
+	<div class="row tabset-holder">
+		<div class="active">
+			<h2 class="small-12 columns">
+				We have a proven <strong>Methodology</strong>
+			</h2>
+			<p><img src="_template/Default/assets/images/homepage/methodology.png"></p>
+			<p>
+				<a class="large success button activatable-next" style="top:-60px" href="#Services">Learn More</a>
+			</p>
+		</div>
+		<div>
+			<h2 class="small-12 columns" style="top: -100px">
+				We <strong style="display: inline">operate</strong> in the<br> entire licensing <br><strong style="display: inline">value chain</strong>
+			</h2>
+			<p><img src="_template/Default/assets/images/homepage/value-chain.png" style="margin-top:-140px"></p>
+			<p>
+				<a class="large success button activatable-next" style="top:-100px" href="#Services">Learn More</a>
+			</p>
+		</div>
+		
+		<div>
+			<h2 class="small-12 columns" style="top:-40px">
+				We are <strong style="display: inline">Hands on</strong> 
+			</h2><p><img src="_template/Default/assets/images/homepage/hands-on.png" style="margin-top:-40px"></p>
+			
+				<a class="large success button activatable-next" style="top:20px" href="#Services">Learn More</a>
+			</p>
+		</div>
+
+		
+		<div>
+			<h2 class="small-12 columns">
+				Named top <strong style="display: inline">10 best</strong> licensing agencies <br>by licensing <br>magazine the past <br><strong style="display: inline">4 consecutive years</strong>
+			</h2>
+			
+				<a class="large success button activatable-next" href="#Services">See our case studies</a>
+			</p>
+		</div>
+	</div>
+<!--	<div class="call-to-action">-->
+<!--		<p class="slide-control">-->
+<!--			<a class="activatable-next"><img src="_template/Default/assets/images/homepage/down-large.png" alt="More Services"></a>-->
+<!--		</p>-->
+<!--	</div>-->
+</div>
 
 <div class="layer layer-anchor tabset-holder" id="Clients">
 	<div class="row">
@@ -385,6 +384,69 @@ Hark::Init();
 
 		<div class="clear"></div>
 
+	</div>
+</div>
+
+<div class="layer layer-anchor" id="Team">
+	<div class="row">
+		<div class="small-offset-1 small-10 columns">
+			<section class="row">
+				<aside class="small-12 large-5 columns">
+					<img src="http://fpoimg.com/345x345"/>
+				</aside>
+				<div class="small-12 large-7 columns">
+					<header>
+						<strong>Ross Misher</strong>
+						CEO
+					</header>
+					<p>
+						Ross is an accomplished industry veteran and licensing executive with expertise in brand extension and creation, innovative partnerships, property acquisitions, and retail development. His long-standing relationships span the licensing industry to licensees, licensors, manufactures and retailers.
+					</p>
+				</div>
+			</section>
+			<section class="row">
+				<aside class="small-12 large-5 large-push-7 columns">
+					<img src="http://fpoimg.com/345x345"/>
+				</aside>
+				<div class="small-12 large-7 large-pull-5 columns">
+					<header>
+						<strong>Ross Misher</strong>
+						CEO
+					</header>
+					<p>
+						Ross is an accomplished industry veteran and licensing executive with expertise in brand extension and creation, innovative partnerships, property acquisitions, and retail development. His long-standing relationships span the licensing industry to licensees, licensors, manufactures and retailers.
+					</p>
+				</div>
+			</section>
+			<section class="row">
+				<aside class="small-12 large-5 columns">
+					<img src="http://fpoimg.com/345x345"/>
+				</aside>
+				<div class="small-12 large-7 columns">
+					<header>
+						<strong>Ross Misher</strong>
+						CEO
+					</header>
+					<p>
+						Ross is an accomplished industry veteran and licensing executive with expertise in brand extension and creation, innovative partnerships, property acquisitions, and retail development. His long-standing relationships span the licensing industry to licensees, licensors, manufactures and retailers.
+					</p>
+				</div>
+			</section>
+			<section class="row">
+				<aside class="small-12 large-5 large-push-7 columns">
+					<img src="http://fpoimg.com/345x345"/>
+				</aside>
+				<div class="small-12 large-7 large-pull-5 columns">
+					<header>
+						<strong>Ross Misher</strong>
+						CEO
+					</header>
+					<p>
+						Ross is an accomplished industry veteran and licensing executive with expertise in brand extension and creation, innovative partnerships, property acquisitions, and retail development. His long-standing relationships span the licensing industry to licensees, licensors, manufactures and retailers.
+					</p>
+				</div>
+			</section>
+		</div>
 	</div>
 </div>
 

@@ -41,12 +41,11 @@
 
 			<!-- Left Nav Section -->
 			<ul class="left">
-				<li class="hide-for-medium-only active"><a class="nav-link home" href="#">Home</a></li>
+				<li class="active"><a class="nav-link home active" href="#CaseStudies">Home</a></li>
 				<li><a class="nav-link Services" href="#Services">Services</a></li>
-				<li><a class="nav-link" href="#CaseStudies">Case Studies</a></li>
 				<li><a class="nav-link" href="#Clients">Clients</a></li>
-				<!-- <li><a class="nav-link-disabled" href="javascript:alert('I need somewhere to go!')">Team</a></li>
-				<li><a class="nav-link-disabled" href="javascript:alert('I need somewhere to go!')">Blog</a></li> -->
+				<li><a class="nav-link" href="#Team">Team</a></li>
+				<!--li><a class="nav-link-disabled" href="javascript:alert('I need somewhere to go!')">Blog</a></li-->
 				<li><a class="nav-link" href="#Contact">Contact</a></li>
 			</ul>
 		</section>

@@ -313,7 +313,7 @@ $case-studies-height-medium-up: 1200px;
 	background-image: image-url('homepage/airport-mall.jpg');
 }
 #brand-central-station {
-	background-image: image-url('homepage/bubble-gum.jpg');
+	background-image: image-url('homepage/hero-01-hubba-bubba.jpg');
 }
 
 #Clients {
@@ -381,6 +381,47 @@ $case-studies-height-medium-up: 1200px;
 				margin-bottom: 0;
 			}
 		}
+	}
+}
+
+#Team {
+	@include texture(noise-dark);
+
+	section {
+		border-bottom: solid 1px $brand-base-light;
+		@include padding-y(5rem);
+		@media #{$large-up} {
+			@include padding-y(10rem);
+		}
+		&:last-child {
+			border: 0;
+		}
+	}
+	aside {
+		text-align: center;
+		img {
+			max-width: 98%;
+			max-height: 98%;
+			@include border-radius(999999px);
+			@include box-shadow(0px 0px 0px 10px $brand-base-light);
+		}
+	}
+	header {
+		text-transform: uppercase;
+		font-size: 1.6rem;
+		color: $brand-base-light-inverse;
+		line-height: 1.5;
+		strong {
+			display: block;
+			color: $brand-primary;
+			font-size: 1.8rem;
+			font-weight: 800;
+			margin-top: 1.5em;
+		}
+	}
+	p {
+		color: lighten($brand-base-light,50%);
+		line-height: 1.5;
 	}
 }
 
