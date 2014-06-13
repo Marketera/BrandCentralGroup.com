@@ -162,7 +162,7 @@ $layer-height: 800px;
 		padding-top: 160px;
 		padding-bottom: 60px;
 
-		@media #{$medium-only} {
+		@media #{$medium-up} {
 			font-size: 4rem;
 		}
 
@@ -306,7 +306,6 @@ $case-studies-height-medium-up: 1000px;
 #Clients {
 	overflow-x: hidden;
 	padding-bottom: 10rem;
-	background: image-url('shadow.png') no-repeat center top;
 
 	@media #{$small-only} {
 		padding-bottom: 1.5rem;
