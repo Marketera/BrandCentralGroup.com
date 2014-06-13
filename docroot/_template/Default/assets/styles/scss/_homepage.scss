@@ -136,11 +136,11 @@ $layer-height: 800px;
 	position: relative;
 
 	@media #{$small-only} {
-		min-height: 640px;
+		min-height: 800px;
 	}
 
 	@media #{$medium-up} {
-		min-height: 1200px;	
+		min-height: 1000px;
 	}
 
 	.tabset-holder {
@@ -153,7 +153,8 @@ $layer-height: 800px;
 			@include transition(600ms);
 			&.active {
 				top: 0;
-				opacity: 1;				
+				opacity: 1;
+				z-index: 2;
 			}
 		}
 	}
@@ -180,12 +181,9 @@ $layer-height: 800px;
 			bottom: 10px;
 		}
 	}
-	
+
 	p {
-		padding-top: 100px;
-		@media #{$small-only} {
-			padding-top: 20px;
-		}
+		padding-top: 40px;
 	}
 	
 	.button {

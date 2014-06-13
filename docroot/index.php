@@ -229,27 +229,34 @@ Hark::Init();
 			<h2 class="small-12 columns">
 				We have a proven <strong>Methodology</strong>
 			</h2>
-			<p><img src="_template/Default/assets/images/homepage/methodology.png"></p>
 			<p>
-				<a class="large success button activatable-next" style="top:-60px" href="#Services">Learn More</a>
+				<img src="_template/Default/assets/images/homepage/methodology.png">
+			</p>
+			<p>
+				<a class="large success button activatable-next" href="#Services">Learn More</a>
 			</p>
 		</div>
 		<div>
-			<h2 class="small-12 columns" style="top: -100px">
+			<h2 class="small-12 columns">
 				We <strong style="display: inline">operate</strong> in the<br> entire licensing <br><strong style="display: inline">value chain</strong>
 			</h2>
-			<p><img src="_template/Default/assets/images/homepage/value-chain.png" style="margin-top:-140px"></p>
 			<p>
-				<a class="large success button activatable-next" style="top:-100px" href="#Services">Learn More</a>
+				<img src="_template/Default/assets/images/homepage/value-chain.png">
+			</p>
+			<p>
+				<a class="large success button activatable-next" href="#Services">Learn More</a>
 			</p>
 		</div>
 		
 		<div>
-			<h2 class="small-12 columns" style="top:-40px">
+			<h2 class="small-12 columns">
 				We are <strong style="display: inline">Hands on</strong> 
-			</h2><p><img src="_template/Default/assets/images/homepage/hands-on.png" style="margin-top:-40px"></p>
-			
-				<a class="large success button activatable-next" style="top:20px" href="#Services">Learn More</a>
+			</h2>
+			<p>
+				<img src="_template/Default/assets/images/homepage/hands-on.png">
+			</p>
+			<p>
+				<a class="large success button activatable-next" href="#Services">Learn More</a>
 			</p>
 		</div>
 
@@ -258,16 +265,11 @@ Hark::Init();
 			<h2 class="small-12 columns">
 				Named top <strong style="display: inline">10 best</strong> licensing agencies <br>by licensing <br>magazine the past <br><strong style="display: inline">4 consecutive years</strong>
 			</h2>
-			
-				<a class="large success button activatable-next" href="#Services">See our case studies</a>
+			<p>
+				<a class="large success button activatable-next" href="#Services">See Our Case Studies</a>
 			</p>
 		</div>
 	</div>
-<!--	<div class="call-to-action">-->
-<!--		<p class="slide-control">-->
-<!--			<a class="activatable-next"><img src="_template/Default/assets/images/homepage/down-large.png" alt="More Services"></a>-->
-<!--		</p>-->
-<!--	</div>-->
 </div>
 
 <div class="layer layer-anchor tabset-holder" id="Clients">
