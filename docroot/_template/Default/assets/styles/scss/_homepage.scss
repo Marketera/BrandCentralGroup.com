@@ -464,7 +464,7 @@ $case-studies-height-medium-up: 1000px;
 	
 	p {
 		@include ellipsis;
-		color: $brand-base-light;
+		color: $brand-base-lighter;
 
 		@media #{$small-only} {
 			font-size: 1rem !important;
@@ -476,7 +476,7 @@ $case-studies-height-medium-up: 1000px;
 			// numbers it detects on the page, making them
 			// clickable. Without defining it, it will default
 			// to standard blue color.
-			color: $brand-primary;
+			color: lighten($brand-primary,10%);
 		}
 	}
 }

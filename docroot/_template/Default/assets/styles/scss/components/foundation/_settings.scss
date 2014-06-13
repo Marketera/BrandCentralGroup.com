@@ -1189,7 +1189,7 @@ $topbar-dropdown-bg: transparent;
 // $topbar-dropdown-toggle-alpha: 0.4;
 
 // Set the link colors and styles for top-level nav
-$topbar-link-color: lighten($brand-base-light,27%);
+$topbar-link-color: $brand-base-lighter;
 $topbar-link-color-hover: $brand-base-light;
 $topbar-link-color-active: $brand-primary;
 $topbar-link-color-active-hover: $topbar-link-color-active;
