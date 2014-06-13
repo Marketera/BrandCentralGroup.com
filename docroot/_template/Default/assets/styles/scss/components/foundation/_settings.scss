@@ -1168,7 +1168,7 @@ $has-tip-border-bottom-hover: none;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-$topbar-bg-color: rgba(black,0);
+$topbar-bg-color: rgba($brand-primary-inverse,0);
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
@@ -1189,10 +1189,10 @@ $topbar-dropdown-bg: transparent;
 // $topbar-dropdown-toggle-alpha: 0.4;
 
 // Set the link colors and styles for top-level nav
-$topbar-link-color: #444;
-// $topbar-link-color-hover: #fff;
-// $topbar-link-color-active: #fff;
-// $topbar-link-color-active-hover: #fff;
+$topbar-link-color: lighten($brand-base-light,27%);
+$topbar-link-color-hover: $brand-base-light;
+$topbar-link-color-active: $brand-primary;
+$topbar-link-color-active-hover: $topbar-link-color-active;
 // $topbar-link-weight: normal;
 $topbar-link-font-size: rem-calc(18);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
@@ -1217,8 +1217,8 @@ $topbar-dropdown-label-bg: $topbar-link-bg;
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: bold;
-// $topbar-menu-link-color: #fff;
-// $topbar-menu-icon-color: #fff;
+$topbar-menu-link-color: $brand-primary;
+$topbar-menu-icon-color: $brand-primary;
 // $topbar-menu-link-color-toggled: #888;
 // $topbar-menu-icon-color-toggled: #888;
 
