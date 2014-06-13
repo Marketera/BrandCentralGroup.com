@@ -43,22 +43,20 @@ Hark::Init();
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
 					<h4 class="small-12 medium-10 large-7 columns">
-						Client: E! News
+						Client: E! Entertainment Network
 					</h4>
 				</div>
 				<div class="row">
 					<h3 class="small-12 medium-10 large-7 columns">
-						<strong>We create winning collaborations that generate national publicity.</strong>
+						<strong>We bring big ideas and entrepreneurial thinking to everything we do.</strong>
 					</h3>
 				</div>
 				<div class="row">
 					<p class="small-12 medium-10 large-7 columns">
-						We secured and E! News airport store at LAX with industry leader Hudson News for a 10 year partnership.
+						Secured 10 year partnership with Hudson News for E! News branded airport stores.
 					</p>
 				</div>
-				<p class="small-only-text-center">
-					<span class="large success button deactivate-slider-spot">Watch the Video</span>
-				</p>
+				
 			</div>
 		</div>
 	</a>
@@ -67,22 +65,20 @@ Hark::Init();
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
 					<h4 class="small-12 medium-10 large-7 columns">
-						Client: Wrigley
+						Client: Dr Pepper Snapple Group
 					</h4>
 				</div>
 				<div class="row">
 					<h3 class="small-12 medium-10 large-7 columns">
-						<strong>We create winning collaborations that generate national publicity.</strong>
+						<strong>We create powerful partnerships with world class brands</strong>
 					</h3>
 				</div>
 				<div class="row">
 					<p class="small-12 medium-10 large-7 columns">
-						We negotiated an exclusive fashion collection with retailer Club Monaco and popular blog Cupcakes and Cashmere.
+						We extended iconic soda flavors into a co-branded gum product line with Wrigley.
 					</p>
 				</div>
-				<p class="small-only-text-center">
-					<span class="large success button deactivate-slider-spot">Watch the Video</span>
-				</p>
+				
 			</div>
 		</div>
 	</a>
@@ -91,21 +87,21 @@ Hark::Init();
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
 					<h4 class="small-12 medium-10 large-7 columns">
-						Client: Cronut
+						Client: The Cronut by Dominque Ansel
 					</h4>
 				</div>
 				<div class="row">
 					<h3 class="small-12 medium-10 large-7 columns">
-						<strong>We create winning collaborations that generate national publicity.</strong>
+						<strong>Central means we are in the know</strong>
 					</h3>
 				</div>
 				<div class="row">
 					<p class="small-12 medium-10 large-7 columns">
-						We negotiated an exclusive fashion collection with retailer Club Monaco and popular blog Cupcakes and Cashmere.
+						Whether its viral phenomenon Cronut or toy craze Rainbow Loom, we build the biggest brands in pop culture.
 					</p>
 				</div>
 				<p class="small-only-text-center">
-					<span class="large success button deactivate-slider-spot">Watch the Video</span>
+					<span class="large success button deactivate-slider-spot">Watch the Cronut Phenomenon</span>
 				</p>
 			</div>
 		</div>
@@ -120,17 +116,15 @@ Hark::Init();
 				</div>
 				<div class="row">
 					<h3 class="small-12 medium-10 large-7 columns">
-						<strong>We create winning collaborations that generate national publicity.</strong>
+						<strong>We bring U.S. Brands to Global Markets</strong>
 					</h3>
 				</div>
 				<div class="row">
 					<p class="small-12 medium-10 large-7 columns">
-						We negotiated an exclusive fashion collection with retailer Club Monaco and popular blog Cupcakes and Cashmere.
+						EWe created a direct to retail partnership between global ski powerhouse K2 Sports and South American retailer Falabela to create dedicated retail shops.
 					</p>
 				</div>
-				<p class="small-only-text-center">
-					<span class="large success button deactivate-slider-spot">Watch the Video</span>
-				</p>
+				
 			</div>
 		</div>
 	</a>
@@ -139,21 +133,21 @@ Hark::Init();
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
 					<h4 class="small-12 medium-10 large-7 columns">
-						Client: __________________
+						Client: Mark Burnett Productions
 					</h4>
 				</div>
 				<div class="row">
 					<h3 class="small-12 medium-10 large-7 columns">
-						<strong>We create winning collaborations that generate national publicity.</strong>
+						<strong>We know speed to market.</strong>
 					</h3>
 				</div>
 				<div class="row">
 					<p class="small-12 medium-10 large-7 columns">
-						We negotiated an exclusive fashion collection with retailer Club Monaco and popular blog Cupcakes and Cashmere.
+						In under 18 months, we generated over $80MM in retail sales for hit show “Are you Smarter Than a Fifth Grader?”
 					</p>
 				</div>
 				<p class="small-only-text-center">
-					<span class="large success button deactivate-slider-spot">Watch the Video</span>
+					<span class="large success button deactivate-slider-spot">Hasbro commercial</span>
 				</p>
 			</div>
 		</div>
@@ -163,22 +157,20 @@ Hark::Init();
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
 					<h4 class="small-12 medium-10 large-7 columns">
-						Client: Target
+						Client: Target Corporation
 					</h4>
 				</div>
 				<div class="row">
 					<h3 class="small-12 medium-10 large-7 columns">
-						<strong>We create winning collaborations that generate national publicity.</strong>
+						<strong>We help retailers discover the next big thing</strong>
 					</h3>
 				</div>
 				<div class="row">
 					<p class="small-12 medium-10 large-7 columns">
-						We negotiated an exclusive fashion collection with retailer Club Monaco and popular blog Cupcakes and Cashmere.
+						We are pop culture consultants for the retailer identifying emerging trends for their marketing and buying teams
 					</p>
 				</div>
-				<p class="small-only-text-center">
-					<span class="large success button deactivate-slider-spot">Watch the Video</span>
-				</p>
+			
 			</div>
 		</div>
 	</a>
@@ -192,16 +184,16 @@ Hark::Init();
 				</div>
 				<div class="row">
 					<h3 class="small-12 medium-10 large-7 columns">
-						<strong>We create winning collaborations that generate national publicity.</strong>
+						<strong>We go beyond traditional licensing to create innovative brand partnerships</strong>
 					</h3>
 				</div>
 				<div class="row">
 					<p class="small-12 medium-10 large-7 columns">
-						We negotiated an exclusive fashion collection with retailer Club Monaco and popular blog Cupcakes and Cashmere.
+						We brought Dr. Andrew Weil to Simmons Mattress to leverage his medical authority in a new healthy mattress collection.
 					</p>
 				</div>
 				<p class="small-only-text-center">
-					<span class="large success button deactivate-slider-spot">Watch the Video</span>
+					<span class="large success button deactivate-slider-spot">Watch the Commercial</span>
 				</p>
 			</div>
 		</div>
