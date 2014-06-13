@@ -533,7 +533,7 @@ Hark::Init();
 		<div class="small-offset-1 small-10 columns">
 			<section class="row">
 				<aside class="small-12 large-5 columns">
-					<img src="http://fpoimg.com/345x345"/>
+					<img src="_template/Default/assets/images/team/ross.jpg"/>
 				</aside>
 				<div class="small-12 large-7 columns">
 					<header>
@@ -553,7 +553,7 @@ Hark::Init();
 			</section>
 			<section class="row">
 				<aside class="small-12 large-5 large-push-7 columns">
-					<img src="http://fpoimg.com/345x345"/>
+					<img src="_template/Default/assets/images/team/rebekah.jpg"/>
 				</aside>
 				<div class="small-12 large-7 large-pull-5 columns">
 					<header>
@@ -567,7 +567,7 @@ Hark::Init();
 			</section>
 			<section class="row">
 				<aside class="small-12 large-5 columns">
-					<img src="http://fpoimg.com/345x345"/>
+					<img src="_template/Default/assets/images/team/jennifer.jpg"/>
 				</aside>
 				<div class="small-12 large-7 columns">
 					<header>
@@ -587,7 +587,7 @@ Hark::Init();
 			</section>
 			<section class="row">
 				<aside class="small-12 large-5 large-push-7 columns">
-					<img src="http://fpoimg.com/345x345"/>
+					<img src="_template/Default/assets/images/team/jodi.jpg"/>
 				</aside>
 				<div class="small-12 large-7 large-pull-5 columns">
 					<header>
@@ -604,7 +604,7 @@ Hark::Init();
 			</section>
 			<section class="row">
 				<aside class="small-12 large-5 large-push-7 columns">
-					<img src="http://fpoimg.com/345x345"/>
+					<img src="_template/Default/assets/images/team/megan.jpg"/>
 				</aside>
 				<div class="small-12 large-7 large-pull-5 columns">
 					<header>
