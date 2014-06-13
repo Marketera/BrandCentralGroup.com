@@ -14,53 +14,194 @@ Hark::Init();
 ?>
 
 <div class="layer layer-anchor ambient-slider add-controls" id="CaseStudies" data-selector=".nav-link.home">
-	<a id="brand-central-difference" href="javascript:alert('I need a place to go!');">
+	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/01-cupcake-club-monoco.jpg')">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
-				<h2>
-					<strong>Brand Central Difference.</strong>
-				</h2>
 				<div class="row">
-					<h3 class="small-12 medium-7 large-7 columns">
-						We Bring Big Ideas,
-						Innovation and
-						Entrepreneurial Thinking
-						to Everything We Do.
+					<h4 class="small-12 medium-10 large-7 columns">
+						Client: Cupcakes and Cashmere
+					</h4>
+				</div>
+				<div class="row">
+					<h3 class="small-12 medium-10 large-7 columns">
+						<strong>We create winning collaborations that generate national publicity.</strong>
 					</h3>
 				</div>
 				<div class="row">
-					<p class="small-12 medium-7 large-6 columns">
-						We secured and E! News airport store at LAX with industry leader Hudson News for a 10 year partnership.
+					<p class="small-12 medium-10 large-7 columns">
+						We negotiated an exclusive fashion collection with retailer Club Monaco and popular blog Cupcakes and Cashmere.
 					</p>
 				</div>
 				<p class="small-only-text-center">
-					<span class="large success button deactivate-slider-spot">Learn More</span>
+					<span class="large success button deactivate-slider-spot">Watch the Video</span>
 				</p>
 			</div>
 		</div>
 	</a>
-	<a id="brand-central-station" href="javascript:alert('I need a place to go!');">
+	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/02-e-news-store.jpg')">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
-				<h2>
-					<strong>Brand Central Station.</strong>
-				</h2>
 				<div class="row">
-					<h3 class="small-12 medium-7 large-5 columns">
-						We Bring Big Trains,
-						Locomotives and
-						The Great West
-						into Everything We Do.
+					<h4 class="small-12 medium-10 large-7 columns">
+						Client: E! News
+					</h4>
+				</div>
+				<div class="row">
+					<h3 class="small-12 medium-10 large-7 columns">
+						<strong>We create winning collaborations that generate national publicity.</strong>
 					</h3>
 				</div>
 				<div class="row">
-					<p class="small-12 medium-7 large-6 columns">
-						Lorem ipsum dolor sit amet, you may consider
-						leaving this text out. Less is more.
+					<p class="small-12 medium-10 large-7 columns">
+						We secured and E! News airport store at LAX with industry leader Hudson News for a 10 year partnership.
 					</p>
 				</div>
 				<p class="small-only-text-center">
-					<span class="large success button deactivate-slider-spot">Choo! Choo!</span>
+					<span class="large success button deactivate-slider-spot">Watch the Video</span>
+				</p>
+			</div>
+		</div>
+	</a>
+	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/03-wrigley-gum.jpg')">
+		<div class="row">
+			<div class="small-offset-1 small-10 columns">
+				<div class="row">
+					<h4 class="small-12 medium-10 large-7 columns">
+						Client: Wrigley
+					</h4>
+				</div>
+				<div class="row">
+					<h3 class="small-12 medium-10 large-7 columns">
+						<strong>We create winning collaborations that generate national publicity.</strong>
+					</h3>
+				</div>
+				<div class="row">
+					<p class="small-12 medium-10 large-7 columns">
+						We negotiated an exclusive fashion collection with retailer Club Monaco and popular blog Cupcakes and Cashmere.
+					</p>
+				</div>
+				<p class="small-only-text-center">
+					<span class="large success button deactivate-slider-spot">Watch the Video</span>
+				</p>
+			</div>
+		</div>
+	</a>
+	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/04-cronut.jpg')">
+		<div class="row">
+			<div class="small-offset-1 small-10 columns">
+				<div class="row">
+					<h4 class="small-12 medium-10 large-7 columns">
+						Client: Cronut
+					</h4>
+				</div>
+				<div class="row">
+					<h3 class="small-12 medium-10 large-7 columns">
+						<strong>We create winning collaborations that generate national publicity.</strong>
+					</h3>
+				</div>
+				<div class="row">
+					<p class="small-12 medium-10 large-7 columns">
+						We negotiated an exclusive fashion collection with retailer Club Monaco and popular blog Cupcakes and Cashmere.
+					</p>
+				</div>
+				<p class="small-only-text-center">
+					<span class="large success button deactivate-slider-spot">Watch the Video</span>
+				</p>
+			</div>
+		</div>
+	</a>
+	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/05-k2.jpg')">
+		<div class="row">
+			<div class="small-offset-1 small-10 columns">
+				<div class="row">
+					<h4 class="small-12 medium-10 large-7 columns">
+						Client: K2 Sports
+					</h4>
+				</div>
+				<div class="row">
+					<h3 class="small-12 medium-10 large-7 columns">
+						<strong>We create winning collaborations that generate national publicity.</strong>
+					</h3>
+				</div>
+				<div class="row">
+					<p class="small-12 medium-10 large-7 columns">
+						We negotiated an exclusive fashion collection with retailer Club Monaco and popular blog Cupcakes and Cashmere.
+					</p>
+				</div>
+				<p class="small-only-text-center">
+					<span class="large success button deactivate-slider-spot">Watch the Video</span>
+				</p>
+			</div>
+		</div>
+	</a>
+	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/06-5th-grader.jpg')">
+		<div class="row">
+			<div class="small-offset-1 small-10 columns">
+				<div class="row">
+					<h4 class="small-12 medium-10 large-7 columns">
+						Client: __________________
+					</h4>
+				</div>
+				<div class="row">
+					<h3 class="small-12 medium-10 large-7 columns">
+						<strong>We create winning collaborations that generate national publicity.</strong>
+					</h3>
+				</div>
+				<div class="row">
+					<p class="small-12 medium-10 large-7 columns">
+						We negotiated an exclusive fashion collection with retailer Club Monaco and popular blog Cupcakes and Cashmere.
+					</p>
+				</div>
+				<p class="small-only-text-center">
+					<span class="large success button deactivate-slider-spot">Watch the Video</span>
+				</p>
+			</div>
+		</div>
+	</a>
+	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/07-target.jpg')">
+		<div class="row">
+			<div class="small-offset-1 small-10 columns">
+				<div class="row">
+					<h4 class="small-12 medium-10 large-7 columns">
+						Client: Target
+					</h4>
+				</div>
+				<div class="row">
+					<h3 class="small-12 medium-10 large-7 columns">
+						<strong>We create winning collaborations that generate national publicity.</strong>
+					</h3>
+				</div>
+				<div class="row">
+					<p class="small-12 medium-10 large-7 columns">
+						We negotiated an exclusive fashion collection with retailer Club Monaco and popular blog Cupcakes and Cashmere.
+					</p>
+				</div>
+				<p class="small-only-text-center">
+					<span class="large success button deactivate-slider-spot">Watch the Video</span>
+				</p>
+			</div>
+		</div>
+	</a>
+	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/08-andrew-weil.jpg')">
+		<div class="row">
+			<div class="small-offset-1 small-10 columns">
+				<div class="row">
+					<h4 class="small-12 medium-10 large-7 columns">
+						Client: Andrew Weil, M.D.
+					</h4>
+				</div>
+				<div class="row">
+					<h3 class="small-12 medium-10 large-7 columns">
+						<strong>We create winning collaborations that generate national publicity.</strong>
+					</h3>
+				</div>
+				<div class="row">
+					<p class="small-12 medium-10 large-7 columns">
+						We negotiated an exclusive fashion collection with retailer Club Monaco and popular blog Cupcakes and Cashmere.
+					</p>
+				</div>
+				<p class="small-only-text-center">
+					<span class="large success button deactivate-slider-spot">Watch the Video</span>
 				</p>
 			</div>
 		</div>
