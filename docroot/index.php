@@ -14,7 +14,7 @@ Hark::Init();
 ?>
 
 <div class="layer layer-anchor ambient-slider add-controls" id="CaseStudies" data-selector=".nav-link.home">
-	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/01-cupcake-club-monoco.jpg')">
+	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/01-cupcake-club-monoco.jpg')">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
@@ -33,12 +33,12 @@ Hark::Init();
 					</p>
 				</div>
 				<p class="small-only-text-center">
-					<span class="large success button deactivate-slider-spot">Watch the Video</span>
+					<a href="javascript:alert('I need a place to go!');" class="large success button deactivate-slider-spot">Watch the Video</a>
 				</p>
 			</div>
 		</div>
-	</a>
-	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/02-e-news-store.jpg')">
+	</section>
+	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/02-e-news-store.jpg')">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
@@ -56,11 +56,10 @@ Hark::Init();
 						Secured 10 year partnership with Hudson News for E! News branded airport stores.
 					</p>
 				</div>
-				
 			</div>
 		</div>
-	</a>
-	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/03-wrigley-gum.jpg')">
+	</section>
+	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/03-wrigley-gum.jpg')">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
@@ -78,11 +77,10 @@ Hark::Init();
 						We extended iconic soda flavors into a co-branded gum product line with Wrigley.
 					</p>
 				</div>
-				
 			</div>
 		</div>
-	</a>
-	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/04-cronut.jpg')">
+	</section>
+	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/04-cronut.jpg')">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
@@ -101,12 +99,12 @@ Hark::Init();
 					</p>
 				</div>
 				<p class="small-only-text-center">
-					<span class="large success button deactivate-slider-spot">Watch the Cronut Phenomenon</span>
+					<a href="javascript:alert('I need a place to go!');" class="large success button deactivate-slider-spot">Watch the Cronut Phenomenon</a>
 				</p>
 			</div>
 		</div>
-	</a>
-	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/05-k2.jpg')">
+	</section>
+	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/05-k2.jpg')">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
@@ -121,14 +119,13 @@ Hark::Init();
 				</div>
 				<div class="row">
 					<p class="small-12 medium-10 large-7 columns">
-						EWe created a direct to retail partnership between global ski powerhouse K2 Sports and South American retailer Falabela to create dedicated retail shops.
+						We created a direct to retail partnership between global ski powerhouse K2 Sports and South American retailer Falabela to create dedicated retail shops.
 					</p>
 				</div>
-				
 			</div>
 		</div>
-	</a>
-	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/06-5th-grader.jpg')">
+	</section>
+	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/06-5th-grader.jpg')">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
@@ -147,12 +144,12 @@ Hark::Init();
 					</p>
 				</div>
 				<p class="small-only-text-center">
-					<span class="large success button deactivate-slider-spot">Hasbro commercial</span>
+					<a href="javascript:alert('I need a place to go!');" class="large success button deactivate-slider-spot">Hasbro commercial</a>
 				</p>
 			</div>
 		</div>
-	</a>
-	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/07-target.jpg')">
+	</section>
+	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/07-target.jpg')">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
@@ -170,11 +167,10 @@ Hark::Init();
 						We are pop culture consultants for the retailer identifying emerging trends for their marketing and buying teams
 					</p>
 				</div>
-			
 			</div>
 		</div>
-	</a>
-	<a href="javascript:alert('I need a place to go!');" style="background-image:url('_template/Default/assets/images/homepage/case-studies/08-andrew-weil.jpg')">
+	</section>
+	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/08-andrew-weil.jpg')">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
@@ -193,11 +189,11 @@ Hark::Init();
 					</p>
 				</div>
 				<p class="small-only-text-center">
-					<span class="large success button deactivate-slider-spot">Watch the Commercial</span>
+					<a href="javascript:alert('I need a place to go!');" class="large success button deactivate-slider-spot">Watch the Commercial</a>
 				</p>
 			</div>
 		</div>
-	</a>
+	</section>
 </div>
 
 <!--div class="layer layer-anchor" id="Introduction" data-selector=".nav-link.home">

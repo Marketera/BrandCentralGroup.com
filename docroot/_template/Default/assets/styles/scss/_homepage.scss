@@ -164,7 +164,6 @@ body.root-index {
 		min-height: 1200px;	
 	}
 
-
 	.tabset-holder {
 		position: relative;
 		&>* {
@@ -277,8 +276,11 @@ $case-studies-height-medium-up: 1000px;
 		}
 	}
 	.button {
-		background: transparent;
+		background: rgba(white,0);
 		border: 3px solid rgba(white,.5);
+		&:hover {
+			background: rgba(white,.2);
+		}
 	}
 }
 .ambient-slider-dots {
@@ -296,13 +298,13 @@ $case-studies-height-medium-up: 1000px;
 	padding: 0; height: 0;
 	position: relative;
 	> * {
-		display: inline-block;
+		@include inline-block;
 		z-index: 5;
 		cursor: pointer;
 		position: absolute;
 		background-repeat: no-repeat;
 		background-position: center center;
-		@include transition(background-color 200ms);
+		opacity: .5;
 		@media #{$small-only} {
 			height: $case-studies-height-small-only;
 			background-size: contain;
@@ -319,7 +321,7 @@ $case-studies-height-medium-up: 1000px;
 			right: 0;
 		}
 		&:hover {
-			background-color: rgba(white,0.2);
+			opacity: 1;
 		}
 	}
 }
@@ -327,7 +329,7 @@ $case-studies-height-medium-up: 1000px;
 #Clients {
 	overflow-x: hidden;
 	padding-bottom: 10rem;
-	@include texture(noise-light);
+	background: image-url('shadow.png') no-repeat center top;
 
 	@media #{$small-only} {
 		padding-bottom: 1.5rem;
