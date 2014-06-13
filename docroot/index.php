@@ -226,9 +226,11 @@ Hark::Init();
 <div class="layer layer-anchor" id="Services">
 	<div class="row tabset-holder">
 		<div class="active">
-			<h2 class="small-12 columns">
-				We have a proven <strong>Methodology</strong>
-			</h2>
+			<div class="row">
+				<h2 class="small-12 large-push-2 large-8 columns">
+					We have a proven <strong>Methodology</strong>
+				</h2>
+			</div>
 			<p>
 				<img src="_template/Default/assets/images/homepage/methodology.png">
 			</p>
@@ -237,9 +239,11 @@ Hark::Init();
 			</p>
 		</div>
 		<div>
-			<h2 class="small-12 columns">
-				We <strong style="display: inline">operate</strong> in the<br> entire licensing <br><strong style="display: inline">value chain</strong>
-			</h2>
+			<div class="row">
+				<h2 class="small-12 large-push-2 large-8 columns">
+					We <strong style="display: inline">operate</strong> in the<br> entire licensing <br><strong style="display: inline">value chain</strong>
+				</h2>
+			</div>
 			<p>
 				<img src="_template/Default/assets/images/homepage/value-chain.png">
 			</p>
@@ -249,9 +253,11 @@ Hark::Init();
 		</div>
 		
 		<div>
-			<h2 class="small-12 columns">
-				We are <strong style="display: inline">Hands on</strong> 
-			</h2>
+			<div class="row">
+				<h2 class="small-12 large-push-2 large-8 columns">
+					We are <strong style="display: inline">Hands on</strong>
+				</h2>
+			</div>
 			<p>
 				<img src="_template/Default/assets/images/homepage/hands-on.png">
 			</p>
@@ -262,9 +268,11 @@ Hark::Init();
 
 		
 		<div>
-			<h2 class="small-12 columns">
-				Named top <strong style="display: inline">10 best</strong> licensing agencies <br>by licensing <br>magazine the past <br><strong style="display: inline">4 consecutive years</strong>
-			</h2>
+			<div class="row">
+				<h2 class="small-12 large-push-2 large-8 columns">
+					Named top <strong style="display: inline">10 best</strong> licensing agencies <br>by licensing <br>magazine the past <br><strong style="display: inline">4 consecutive years</strong>
+				</h2>
+			</div>
 			<p>
 				<a class="large success button activatable-next" href="#Services">See Our Case Studies</a>
 			</p>
