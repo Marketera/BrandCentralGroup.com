@@ -11,6 +11,9 @@
 #header-bar {
 	background: rgba($brand-primary-inverse,0.9);
 }
+body.f-topbar-fixed {
+	padding-top: 0;
+}
 
 .button {
 	text-transform: uppercase;
@@ -29,4 +32,23 @@
 	}
 }
 
+h1, h2, h3 {
+	text-transform: uppercase;
+	strong {
+		display: block;
+	}
+}
+.layer {
+	//min-height: $layer-height;
+	min-height: 100vh;
+
+	@media #{$small-only} {
+		//min-height: 0 !important;
+		min-height: 480px;
+		padding: 50px 0;
+	}
+}
+
+
 @import 'homepage';
+@import 'team';

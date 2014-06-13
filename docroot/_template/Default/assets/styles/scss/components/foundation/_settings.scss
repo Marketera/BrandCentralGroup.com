@@ -1217,10 +1217,10 @@ $topbar-dropdown-label-bg: $topbar-link-bg;
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: bold;
-$topbar-menu-link-color: $brand-primary;
-$topbar-menu-icon-color: $brand-primary;
-// $topbar-menu-link-color-toggled: #888;
-// $topbar-menu-icon-color-toggled: #888;
+$topbar-menu-link-color: $brand-base;
+$topbar-menu-icon-color: $brand-base;
+$topbar-menu-link-color-toggled: $brand-base-lighter;
+$topbar-menu-icon-color-toggled: $brand-base-lighter;
 
 // Transitions and breakpoint styles
 // $topbar-transition-speed: 300ms;
