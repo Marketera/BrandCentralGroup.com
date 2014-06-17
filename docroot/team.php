@@ -51,7 +51,7 @@ Hark::Init();
 						Vice President
 					</header>
 					<p>
-						As Vice President of Licensing at Brand Central, Rebekah is responsible for developing and implementing brand extension strategies with a focus on business development, client management and marketing. Rebekah Belzer was formerly the Director of Licensing at Saban Brands building new strategic partnerships in the apparel and soft lines categories for brands such as Paul Frank and Power Rangers.  Prior to joining Saban Brands, Rebekah spent seven years at Disney Consumer Products launching popular brands such as Hannah Montana and High School Musical. Rebekah also previously worked for top retailers including The Gap, Gymboree and The Disney Store.
+						As Vice President of Licensing at Brand Central, Rebekah is responsible for developing and implementing brand extension strategies with a focus on business development, client management and marketing.</p><p>Rebekah was formerly the Director of Licensing at Saban Brands building new strategic partnerships in the apparel and soft lines categories for brands such as Paul Frank and Power Rangers.  Prior to joining Saban Brands, Rebekah spent seven years at Disney Consumer Products launching popular brands such as Hannah Montana and High School Musical. Rebekah also previously worked for top retailers including The Gap, Gymboree and The Disney Store.
 					</p>
 				</div>
 			</section>
@@ -68,7 +68,7 @@ Hark::Init();
 						With an extensive background in licensing, retail, and consumer products, Jennifer has a proven track record of consistently growing licensing programs across multiple categories and demographics with new and evergreen brands. 
 					</p>
 					<p>
-						Jennifer recently led the licensing team for Hello Kitty (Sanrio brands). During her 5 year tenure at Sanrio growing the Hello Kitty business 200% during the time she led the licensing program at Sanrio.
+						Jennifer recently lead the licensing division for Hello Kitty.  During her 5 year tenure at Sanrio, Jennifer achieved 200% growth of  Hello Kitty consumer products business.  
 					</p>
 					<p>
 						Prior to Sanrio, Jennifer spent ten years working in licensing and brand management for NASCAR through various positions including Mattel and The Upper Deck Company. Jennifer leads the agency’s office in North Carolina.
@@ -102,7 +102,7 @@ Hark::Init();
 						Marketing and Creative Services
 					</header>
 					<p>
-						Megan leads marketing and creative services department at Brand Central.  Megan and her team are responsible for building brand strategies, creating marketing and sales collateral, innovating new product concepts and handling all product approvals for our partners.  The team also is responsible for the Brand Central’s trend consulting clients including Target Stores. Megan joined the Brand Central team from Creative Artists Agency (CAA) where she worked in the brand development and licensing department building popular brands such as Bob Marley and Skinnygirl.
+						Megan leads the marketing and creative services department at Brand Central.  Megan and her team are responsible for building brand strategies, creating marketing and sales collateral, innovating new product concepts and handling all product approvals for our partners.  This division is also responsible for the Brand Central’s trend consulting clients including Target Stores. Megan joined the Brand Central team from Creative Artists Agency (CAA) where she worked in the brand development and licensing department building popular brands such as Bob Marley and Skinnygirl.
 					</p>
 				</div>
 			</section>
@@ -116,7 +116,7 @@ Hark::Init();
 						Finance and Royalty Compliance
 					</header>
 					<p>
-						Neena is responsible for royalty reporting, collections and auditing of Brand Central’s licensing partners.  Her department also manages our Dependable Solutions software which tracks and manages all royalties and reports for our clients and partners. As former Vice President of Royalty Compliance for Equity Management Inc., Neena managed the audit programs for over 20 major licensors, including General Motors, Dr Pepper/7Up, Kawasaki and Whirlpool/Maytag. The core audit procedures and reporting format developed by Neena have become the procedural standard used by a number of the country’s top royalty audit firms.
+						Neena is responsible for royalty reporting, collections and auditing of Brand Central’s licensing partners.  Her department also manages our Dependable Solutions software which tracks and manages all royalties and reports for our clients and partners. As former Vice President of Royalty Compliance for Equity Management Inc., Neena has managed the audit programs for over 20 major licensors, including General Motors, Dr Pepper/7Up, Kawasaki and Whirlpool/Maytag. The core audit procedures and reporting format developed by Neena have become the procedural standard used by a number of the country’s top royalty audit firms.
 					</p>
 				</div>
 			</section>
