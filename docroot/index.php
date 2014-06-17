@@ -17,6 +17,50 @@ Hark::Init();
 <section style="background-image:url('_template/Default/assets/images/homepage/case-studies/00-intro.png')">
 		
 	</section>
+	
+	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/02-e-news-store.jpg')">
+		<div class="row">
+			<div class="small-offset-1 small-10 columns">
+				<div class="row">
+					<h4 class="small-12 medium-10 large-7 columns">
+						Client: E! Entertainment Network
+					</h4>
+				</div>
+				<div class="row">
+					<h3 class="small-12 medium-10 large-7 columns">
+						<strong>We bring big ideas and entrepreneurial thinking to everything we do.</strong>
+					</h3>
+				</div>
+				<div class="row">
+					<p class="small-12 medium-10 large-7 columns">
+						Secured 10 year partnership with Hudson News for E! News branded airport stores.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+    <section style="background-image:url('_template/Default/assets/images/homepage/case-studies/03-wrigley-gum.jpg')">
+		<div class="row">
+			<div class="small-offset-1 small-10 columns">
+				<div class="row">
+					<h4 class="small-12 medium-10 large-7 columns">
+						Client: Dr Pepper Snapple Group
+					</h4>
+				</div>
+				<div class="row">
+					<h3 class="small-12 medium-10 large-7 columns">
+						<strong>We create powerful partnerships with world class brands.</strong>
+					</h3>
+				</div>
+				<div class="row">
+					<p class="small-12 medium-10 large-7 columns">
+						We brought together iconic soda flavors with Wrigley’  Hubba Bubba gum which made their sales pop!
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
 
 	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/01-cupcake-club-monoco.jpg')">
 		<div class="row">
@@ -42,49 +86,31 @@ Hark::Init();
 			</div>
 		</div>
 	</section>
-	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/02-e-news-store.jpg')">
+		<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/08-andrew-weil.jpg')">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
 					<h4 class="small-12 medium-10 large-7 columns">
-						Client: E! Entertainment Network
+						Client: Dr. Andrew Weil, M.D.
 					</h4>
 				</div>
 				<div class="row">
 					<h3 class="small-12 medium-10 large-7 columns">
-						<strong>We bring big ideas and entrepreneurial thinking to everything we do.</strong>
+						<strong>We go beyond traditional licensing to create innovative brand partnerships.</strong>
 					</h3>
 				</div>
 				<div class="row">
 					<p class="small-12 medium-10 large-7 columns">
-						Secured 10 year partnership with Hudson News for E! News branded airport stores.
+						We brought Dr. Andrew Weil to Simmons Mattress to leverage his medical authority in a new healthy mattress collection.
 					</p>
 				</div>
+				<p class="small-only-text-center">
+					<a href="javascript:alert('I need a place to go!');" class="large success button deactivate-slider-spot">Watch the Commercial</a>
+				</p>
 			</div>
 		</div>
 	</section>
-	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/03-wrigley-gum.jpg')">
-		<div class="row">
-			<div class="small-offset-1 small-10 columns">
-				<div class="row">
-					<h4 class="small-12 medium-10 large-7 columns">
-						Client: Dr Pepper Snapple Group
-					</h4>
-				</div>
-				<div class="row">
-					<h3 class="small-12 medium-10 large-7 columns">
-						<strong>We create powerful partnerships with world class brands</strong>
-					</h3>
-				</div>
-				<div class="row">
-					<p class="small-12 medium-10 large-7 columns">
-						We extended iconic soda flavors into a co-branded gum product line with Wrigley.
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/04-cronut.jpg')">
+			<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/04-cronut.jpg')">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
@@ -94,38 +120,17 @@ Hark::Init();
 				</div>
 				<div class="row">
 					<h3 class="small-12 medium-10 large-7 columns">
-						<strong>Central means we are in the know</strong>
+						<strong>Central means <br>we are in the know.</strong>
 					</h3>
 				</div>
 				<div class="row">
 					<p class="small-12 medium-10 large-7 columns">
-						Whether its viral phenomenon Cronut or toy craze Rainbow Loom, we build the biggest brands in pop culture.
+						Taking viral phenomenon Cronut beyond the bakery exemplifies how we are building the biggest brands in pop culture.
 					</p>
 				</div>
 				<p class="small-only-text-center">
 					<a href="javascript:alert('I need a place to go!');" class="large success button deactivate-slider-spot">Watch the Cronut Phenomenon</a>
 				</p>
-			</div>
-		</div>
-	</section>
-	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/05-k2.jpg')">
-		<div class="row">
-			<div class="small-offset-1 small-10 columns">
-				<div class="row">
-					<h4 class="small-12 medium-10 large-7 columns">
-						Client: K2 Sports
-					</h4>
-				</div>
-				<div class="row">
-					<h3 class="small-12 medium-10 large-7 columns">
-						<strong>We bring U.S. Brands to Global Markets</strong>
-					</h3>
-				</div>
-				<div class="row">
-					<p class="small-12 medium-10 large-7 columns">
-						We created a direct to retail partnership between global ski powerhouse K2 Sports and South American retailer Falabela to create dedicated retail shops.
-					</p>
-				</div>
 			</div>
 		</div>
 	</section>
@@ -153,7 +158,29 @@ Hark::Init();
 			</div>
 		</div>
 	</section>
-	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/07-target.jpg')">
+
+	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/05-k2.jpg')">
+		<div class="row">
+			<div class="small-offset-1 small-10 columns">
+				<div class="row">
+					<h4 class="small-12 medium-10 large-7 columns">
+						Client: K2 Sports
+					</h4>
+				</div>
+				<div class="row">
+					<h3 class="small-12 medium-10 large-7 columns">
+						<strong>We bring global brands and second line to global markets.</strong>
+					</h3>
+				</div>
+				<div class="row">
+					<p class="small-12 medium-10 large-7 columns">
+						We created a direct to retail partnership between global ski powerhouse K2 Sports and South American retailer Falabela to create dedicated retail shops.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+		<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/07-target.jpg')">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
 				<div class="row">
@@ -163,41 +190,18 @@ Hark::Init();
 				</div>
 				<div class="row">
 					<h3 class="small-12 medium-10 large-7 columns">
-						<strong>We help retailers discover the next big thing</strong>
+						<strong>We help retailers discover the next big thing.</strong>
 					</h3>
 				</div>
 				<div class="row">
 					<p class="small-12 medium-10 large-7 columns">
-						We are pop culture consultants for the retailer identifying emerging trends for their marketing and buying teams
+						We are pop culture consultants for the retailer identifying emerging trends for their marketing and buying teams.
 					</p>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/08-andrew-weil.jpg')">
-		<div class="row">
-			<div class="small-offset-1 small-10 columns">
-				<div class="row">
-					<h4 class="small-12 medium-10 large-7 columns">
-						Client: Andrew Weil, M.D.
-					</h4>
-				</div>
-				<div class="row">
-					<h3 class="small-12 medium-10 large-7 columns">
-						<strong>We go beyond traditional licensing to create innovative brand partnerships</strong>
-					</h3>
-				</div>
-				<div class="row">
-					<p class="small-12 medium-10 large-7 columns">
-						We brought Dr. Andrew Weil to Simmons Mattress to leverage his medical authority in a new healthy mattress collection.
-					</p>
-				</div>
-				<p class="small-only-text-center">
-					<a href="javascript:alert('I need a place to go!');" class="large success button deactivate-slider-spot">Watch the Commercial</a>
-				</p>
-			</div>
-		</div>
-	</section>
+
 </div>
 
 <!--div class="layer layer-anchor" id="Introduction" data-selector=".nav-link.home">
@@ -539,7 +543,7 @@ Hark::Init();
 			<img src="_template/Default/assets/images/homepage/map.png">
 		</a>
 		<div class="small-12 medium-6 large-5 columns">
-			<h5>Address</h5>
+			<h5>Headquarters Address</h5>
 			<p>
 				10508 Santa Monica Blvd<br/>
 				Los Angeles, CA 90025
