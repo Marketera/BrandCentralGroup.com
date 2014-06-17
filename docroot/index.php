@@ -14,10 +14,7 @@ Hark::Init();
 ?>
 
 <div class="layer layer-anchor ambient-slider add-controls" id="CaseStudies" data-selector=".nav-link.home">
-<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/00-intro.png')">
-		
-	</section>
-	
+	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/00-intro.jpg')"></section>
 	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/02-e-news-store.jpg')">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
