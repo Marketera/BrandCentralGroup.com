@@ -56,7 +56,7 @@
 
 <div id="footer-bar">
 	<div class="row">
-		<p class="small-12 columns"><small>Copyright &copy; <?php echo date('Y') ?> Brand Central LLC. All rights reserved.</small></p>
+		<p class="small-12 columns"><small>Copyright &copy; <?php echo date('Y') ?> Brand Central LLC. All rights reserved. All Trademarks, Trade names and logos referenced herein belong to their respective companies.</small></p>
 	</div>
 </div>
 
