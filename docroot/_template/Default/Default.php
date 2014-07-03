@@ -41,8 +41,9 @@
 
 			<!-- Left Nav Section -->
 			<ul class="left">
-				<li class="active"><a class="nav-link home active" href="/#CaseStudies">Home</a></li>
+				<li class="active"><a class="nav-link home active" href="/#top">Home</a></li>
 				<li><a class="nav-link Services" href="/#Services">Services</a></li>
+				<li><a class="nav-link" href="/#CaseStudies">Case Studies</a></li>
 				<li><a class="nav-link" href="/#Clients">Clients</a></li>
 				<li><a class="nav-link" href="/team.php#Team">Team</a></li>
 				<!--li><a class="nav-link-disabled" href="javascript:alert('I need somewhere to go!')">Blog</a></li-->

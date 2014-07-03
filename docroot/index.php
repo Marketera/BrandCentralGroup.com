@@ -14,25 +14,128 @@ Hark::Init();
 ?>
 
 <div class="layer layer-anchor ambient-slider add-controls" id="CaseStudies" data-selector=".nav-link.home">
-	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/00-intro.jpg')"></section>
+
+	<section style="background-image:url('_template/Default/assets/images/homepage/intro-02.jpg')">
+	
+	</section>
+		
+
+		
+</div>
+
+<!--div class="layer layer-anchor" id="Introduction" data-selector=".nav-link.home">
+	<div class="Slideshow" data-seconds="5">
+		<div class="active" style="background-image:url('_template/Default/assets/images/homepage/hero-01-hubba-bubba.jpg')"></div>
+		<div style="background-image:url('_template/Default/assets/images/homepage/hero-02-snapple.jpg')"></div>
+		<div style="background-image:url('_template/Default/assets/images/homepage/hero-03-fifth-grader.jpg')"></div>
+		<div style="background-image:url('_template/Default/assets/images/homepage/hero-04-e-entertainment.jpg')"></div>
+		<div style="background-image:url('_template/Default/assets/images/homepage/hero-05-pulp-fiction.jpg')"></div>
+	</div>
+	<div class="row content">
+		<div class="small-12 large-offset-1 large-11 columns">
+			<h1 class="" stlye="display: inline">
+				<strong style="display: inline">Brand</strong> is at <br>the <strong style="display: inline">center</strong> <br>of what we do.
+			</h1>
+			<div class="row">
+				<p class="small-12 medium-7 large-5 columns">
+					We deepen the emotional connection between your brand and consumers.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="call-to-action">
+		<div class="text-center">
+			<a class="large button" href="#Services" onclick="$('.nav-link.Services').click();return false;">Learn More</a>
+		</div>
+	</div>
+</div-->
+
+<div class="layer layer-anchor" id="Services">
+	<div class="row tabset-holder">
+		<div class="active">
+			<div class="row">
+				<h2 class="small-12 large-push-2 large-8 columns">
+					We have a proven <strong>Methodology</strong>
+				</h2>
+			</div>
+			<p>
+				<img src="_template/Default/assets/images/homepage/methodology.png">
+			</p>
+			<p>
+				<a class="large success button activatable-next" href="#Services">Learn More</a>
+			</p>
+		</div>
+		<div>
+			<div class="row">
+				<h2 class="small-12 large-push-2 large-8 columns">
+					We <strong style="display: inline">operate</strong> in the<br> entire licensing <br><strong style="display: inline">value chain</strong>
+				</h2>
+			</div>
+			<p>
+				<img src="_template/Default/assets/images/homepage/value-chain.png">
+			</p>
+			<p>
+				<a class="large success button activatable-next" href="#Services">Learn More</a>
+			</p>
+		</div>
+		
+		<div>
+			<div class="row">
+				<h2 class="small-12 large-push-2 large-8 columns">
+					We are <strong style="display: inline">Hands on</strong>
+				</h2>
+			</div>
+			<p>
+				<img src="_template/Default/assets/images/homepage/hands-on.png">
+			</p>
+			<p>
+				<a class="large success button activatable-next" href="#Services">Learn More</a>
+			</p>
+		</div>
+
+		
+		<div>
+			<div class="row">
+				<h2 class="small-12 large-push-2 large-8 columns">
+					Named top <strong style="display: inline">10 best</strong> licensing agencies <br>by licensing <br>magazine the past <br><strong style="display: inline">4 consecutive years</strong>
+				</h2>
+			</div>
+			<p>
+				<a class="large success button activatable-next" href="#Services">See Our Case Studies</a>
+			</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="layer layer-anchor ambient-slider add-controls" id="CaseStudies" data-selector=".nav-link.home">
+	
 	<section style="background-image:url('_template/Default/assets/images/homepage/case-studies/02-e-news-store.jpg')">
 		<div class="row">
 			<div class="small-offset-1 small-10 columns">
-				<div class="row">
+				<div class="row" style="margin-top:120px;">
 					<h4 class="small-12 medium-10 large-7 columns">
-						Client: E! Entertainment Network
+						Client: E! Entertainment Television
 					</h4>
 				</div>
+			
 				<div class="row">
 					<h3 class="small-12 medium-10 large-7 columns">
-						<strong>We bring big ideas and entrepreneurial thinking to everything we do.</strong>
+						<strong>We secured a 10 year partnership with Hudson News for E! News airport stores</strong>
 					</h3>
 				</div>
-				<div class="row">
+					<div class="row">
 					<p class="small-12 medium-10 large-7 columns">
-						Secured 10 year partnership with Hudson News for E! News branded airport stores.
+						Delivered: Big Ideas
 					</p>
 				</div>
+				
 			</div>
 		</div>
 	</section>
@@ -201,89 +304,9 @@ Hark::Init();
 
 </div>
 
-<!--div class="layer layer-anchor" id="Introduction" data-selector=".nav-link.home">
-	<div class="Slideshow" data-seconds="5">
-		<div class="active" style="background-image:url('_template/Default/assets/images/homepage/hero-01-hubba-bubba.jpg')"></div>
-		<div style="background-image:url('_template/Default/assets/images/homepage/hero-02-snapple.jpg')"></div>
-		<div style="background-image:url('_template/Default/assets/images/homepage/hero-03-fifth-grader.jpg')"></div>
-		<div style="background-image:url('_template/Default/assets/images/homepage/hero-04-e-entertainment.jpg')"></div>
-		<div style="background-image:url('_template/Default/assets/images/homepage/hero-05-pulp-fiction.jpg')"></div>
-	</div>
-	<div class="row content">
-		<div class="small-12 large-offset-1 large-11 columns">
-			<h1 class="" stlye="display: inline">
-				<strong style="display: inline">Brand</strong> is at <br>the <strong style="display: inline">center</strong> <br>of what we do.
-			</h1>
-			<div class="row">
-				<p class="small-12 medium-7 large-5 columns">
-					We deepen the emotional connection between your brand and consumers.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="call-to-action">
-		<div class="text-center">
-			<a class="large button" href="#Services" onclick="$('.nav-link.Services').click();return false;">Learn More</a>
-		</div>
-	</div>
-</div-->
 
-<div class="layer layer-anchor" id="Services">
-	<div class="row tabset-holder">
-		<div class="active">
-			<div class="row">
-				<h2 class="small-12 large-push-2 large-8 columns">
-					We have a proven <strong>Methodology</strong>
-				</h2>
-			</div>
-			<p>
-				<img src="_template/Default/assets/images/homepage/methodology.png">
-			</p>
-			<p>
-				<a class="large success button activatable-next" href="#Services">Learn More</a>
-			</p>
-		</div>
-		<div>
-			<div class="row">
-				<h2 class="small-12 large-push-2 large-8 columns">
-					We <strong style="display: inline">operate</strong> in the<br> entire licensing <br><strong style="display: inline">value chain</strong>
-				</h2>
-			</div>
-			<p>
-				<img src="_template/Default/assets/images/homepage/value-chain.png">
-			</p>
-			<p>
-				<a class="large success button activatable-next" href="#Services">Learn More</a>
-			</p>
-		</div>
-		
-		<div>
-			<div class="row">
-				<h2 class="small-12 large-push-2 large-8 columns">
-					We are <strong style="display: inline">Hands on</strong>
-				</h2>
-			</div>
-			<p>
-				<img src="_template/Default/assets/images/homepage/hands-on.png">
-			</p>
-			<p>
-				<a class="large success button activatable-next" href="#Services">Learn More</a>
-			</p>
-		</div>
 
-		
-		<div>
-			<div class="row">
-				<h2 class="small-12 large-push-2 large-8 columns">
-					Named top <strong style="display: inline">10 best</strong> licensing agencies <br>by licensing <br>magazine the past <br><strong style="display: inline">4 consecutive years</strong>
-				</h2>
-			</div>
-			<p>
-				<a class="large success button activatable-next" href="#Services">See Our Case Studies</a>
-			</p>
-		</div>
-	</div>
-</div>
+
 
 <div class="layer layer-anchor tabset-holder" id="Clients">
 	<div class="row">
